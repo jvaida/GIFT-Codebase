@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+    <technical>
+        <location>STEEL-R RIDE Trainer - Rifleman - 2022-11-22 16-25-42.mp4</location>
+    </technical>
+    <general>
+        <identifier>
+            <catalog>start_time</catalog>
+            <entry>1669152339016</entry>
+        </identifier>
+        <identifier>
+            <catalog>offset</catalog>
+            <entry>0</entry>
+        </identifier>
+        <identifier>
+            <catalog>title</catalog>
+            <entry>Rifleman</entry>
+        </identifier>
+    </general>
+</lom>

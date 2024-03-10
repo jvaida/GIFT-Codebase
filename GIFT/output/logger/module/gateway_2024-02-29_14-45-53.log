@@ -1,0 +1,70 @@
+02-29-2024 14:45:57 [Gateway Single Process Thread] WARN  mil.arl.gift.gateway.interop.InteropConfigFileHandler - Not instantiating interop interface named DE Testbed DIS Adapter with id of 8 because the 'isAvailable' value is false.
+02-29-2024 14:45:58 [Gateway Single Process Thread] WARN  mil.arl.gift.gateway.interop.InteropConfigFileHandler - Not instantiating interop interface named DE Testbed XMLRPC Adapter with id of 9 because the 'isAvailable' value is false.
+02-29-2024 14:46:05 [Gateway Single Process Thread] WARN  mil.arl.gift.gateway.GatewayModule - The following gateway interops are not being used in this instance because they are either set to 'not' available or a configuration is missing in config/gateway/configurations/default.interopConfig.xml:
+mil.arl.gift.gateway.interop.detestbedplugin.DETestbedPluginXMLRPCInterface
+
+02-29-2024 15:09:54 [Gateway_Queue_172.20.80.1_Message_Listener] WARN  mil.arl.gift.net.api.NetworkSession - It took 4224 ms to decode the CloseDomainSessionRequest message of:
+[DomainSessionMessage: domainSessionId = 1, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = CloseDomainSessionRequest, source event id = 2867, seq # = 2887, time = 2024:02:29 15:09:48:801 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_172.20.80.1_Inbox, destination address = Gateway_Queue_172.20.80.1_Inbox, payload = [CloseDomainSessionRequest: reason = The course has been terminated], needs response = true]]]
+02-29-2024 15:13:14 [Gateway_Queue_172.20.80.1_Message_Listener] WARN  mil.arl.gift.net.api.NetworkSession - It took 1618 ms to decode the KnowledgeSessionCreated message of:
+[DomainSessionMessage: domainSessionId = 2, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = KnowledgeSessionCreated, source event id = 3315, seq # = 3352, time = 2024:02:29 15:13:12:965 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_172.20.80.1_Inbox, destination address = Gateway_Queue_172.20.80.1_Inbox, payload = [KnowledgeSessionCreated: , knowledge session = [IndividualKnowledgeSession: nameOfSession = Lesson, scenarioDescription = This DKF is used to assess game state messages coming from the Simple Example Training Application., hostSessionMember = [SessionMember: userSession = [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null], domainSessionId = 2, membership = [IndividualMembership: memberName = jvaida, teamMember = null]], isRunning = false, courseName = Simple Example TA Test, courseRuntimeId = jvaida\2024-02-29_15-11-31\Simple Example Training App Course\exampleCourse.course.xml, courseSourceId = Public/Simple Example Training App Course/exampleCourse.course.xml, experimentName = null, domainSessionLogFileName = null, nodeIdToNameMap = {1=pressing buttons task, 2=pressed button 1, 3=pressed button 2, 4=pressed button 3, 5=Application Completed}, trainingAppType = SimpleExampleTrainingApp, sessionType = ACTIVE, inPastSessionMode = false, sessionStartTime = 1709244792074, team = null, playbackId =null, mission = null, observerControls = null]], needs response = false]]]
+02-29-2024 15:13:14 [Gateway_Queue_172.20.80.1 Decoded Message Listener] ERROR mil.arl.gift.gateway.GatewayModule - Didn't handle message from GIFT of [DomainSessionMessage: domainSessionId = 2, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = KnowledgeSessionCreated, source event id = 3315, seq # = 3352, time = 2024:02:29 15:13:12:965 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_172.20.80.1_Inbox, destination address = Gateway_Queue_172.20.80.1_Inbox, payload = [KnowledgeSessionCreated: , knowledge session = [IndividualKnowledgeSession: nameOfSession = Lesson, scenarioDescription = This DKF is used to assess game state messages coming from the Simple Example Training Application., hostSessionMember = [SessionMember: userSession = [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null], domainSessionId = 2, membership = [IndividualMembership: memberName = jvaida, teamMember = null]], isRunning = false, courseName = Simple Example TA Test, courseRuntimeId = jvaida\2024-02-29_15-11-31\Simple Example Training App Course\exampleCourse.course.xml, courseSourceId = Public/Simple Example Training App Course/exampleCourse.course.xml, experimentName = null, domainSessionLogFileName = null, nodeIdToNameMap = {1=pressing buttons task, 2=pressed button 1, 3=pressed button 2, 4=pressed button 3, 5=Application Completed}, trainingAppType = SimpleExampleTrainingApp, sessionType = ACTIVE, inPastSessionMode = false, sessionStartTime = 1709244792074, team = null, playbackId =null, mission = null, observerControls = null]], needs response = false]]] with the current set of enabled interop interfaces.  Is the appropriate interface enabled for this part of the course and does that interface implementation support messages of this type (type = KnowledgeSessionCreated).
+02-29-2024 15:13:16 [Gateway_Queue_172.20.80.1_Message_Listener] WARN  mil.arl.gift.net.api.NetworkSession - It took 668 ms to decode the InitializeInteropConnections message of:
+[DomainSessionMessage: domainSessionId = 2, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = InitializeInteropConnections, source event id = 3327, seq # = 3364, time = 2024:02:29 15:13:15:865 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_172.20.80.1_Inbox, destination address = Gateway_Queue_172.20.80.1_Inbox, payload = [InitializeInteropConnections: domainServerAddress = http://172.20.80.1:8885, interops = {gateway.interop.simple.SimpleExampleTAPluginInterface, }, requestingObserver = null, playback = false], needs response = true]]]
+02-29-2024 15:14:52 [Gateway_Queue_172.20.80.1_Message_Listener] WARN  mil.arl.gift.net.api.NetworkSession - It took 84092 ms to decode the Siman message of:
+[DomainSessionMessage: domainSessionId = 2, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = Siman, source event id = 3339, seq # = 3376, time = 2024:02:29 15:13:20:796 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_172.20.80.1_Inbox, destination address = Gateway_Queue_172.20.80.1_Inbox, payload = [Siman:  type = Load, loadArgs = { {gateway.interop.simple.SimpleExampleTAPluginInterface:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<InteropInputs xmlns:ns2="http://GIFT.com/common">
+    <SimpleExampleTAInteropInputs>
+        <loadArgs>
+            <ScenarioName>Scenario X</ScenarioName>
+        </loadArgs>
+    </SimpleExampleTAInteropInputs>
+</InteropInputs>
+},}, runtimeCourseFolderPath = runtime\jvaida\2024-02-29_15-11-31\Simple Example Training App Course, filesize = 0], needs response = true]]]
+02-29-2024 15:14:55 [Gateway_Queue_172.20.80.1_Message_Listener] WARN  mil.arl.gift.net.api.NetworkSession - It took 2578 ms to decode the LessonCompleted message of:
+[DomainSessionMessage: domainSessionId = 2, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = LessonCompleted, source event id = 3519, seq # = 3559, time = 2024:02:29 15:14:51:712 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_172.20.80.1_Inbox, destination address = Gateway_Queue_172.20.80.1_Inbox, payload = [LessonCompleted: statusType = ERROR], needs response = true]]]
+02-29-2024 15:14:56 [Gateway_Queue_172.20.80.1 Decoded Message Listener] WARN  mil.arl.gift.gateway.interop.simple.SimpleExampleTAPluginInterface - Training application is still running when it's not expected to be, attempting to close it.
+02-29-2024 15:14:56 [Gateway_Queue_172.20.80.1 Decoded Message Listener] ERROR mil.arl.gift.net.xmlrpc.XMLRPCClient - There was an exception thrown when calling the RPC method of 'closeApplication'.
+If this exception is a ConnectionException, this XML RPC Client will not log another error about it until a succesful connection is made first.
+org.apache.xmlrpc.client.XmlRpcClientException: Failed to read server's response: Connection reset
+	at org.apache.xmlrpc.client.XmlRpcStreamTransport.readResponse(XmlRpcStreamTransport.java:190) ~[xmlrpc-client-3.1.3.jar:3.1.3]
+	at org.apache.xmlrpc.client.XmlRpcStreamTransport.sendRequest(XmlRpcStreamTransport.java:156) ~[xmlrpc-client-3.1.3.jar:3.1.3]
+	at org.apache.xmlrpc.client.XmlRpcHttpTransport.sendRequest(XmlRpcHttpTransport.java:143) ~[xmlrpc-client-3.1.3.jar:3.1.3]
+	at org.apache.xmlrpc.client.XmlRpcSunHttpTransport.sendRequest(XmlRpcSunHttpTransport.java:69) ~[xmlrpc-client-3.1.3.jar:3.1.3]
+	at org.apache.xmlrpc.client.XmlRpcClientWorker.execute(XmlRpcClientWorker.java:56) ~[xmlrpc-client-3.1.3.jar:3.1.3]
+	at org.apache.xmlrpc.client.XmlRpcClient.execute(XmlRpcClient.java:167) ~[xmlrpc-client-3.1.3.jar:3.1.3]
+	at org.apache.xmlrpc.client.XmlRpcClient.execute(XmlRpcClient.java:158) ~[xmlrpc-client-3.1.3.jar:3.1.3]
+	at org.apache.xmlrpc.client.XmlRpcClient.execute(XmlRpcClient.java:147) ~[xmlrpc-client-3.1.3.jar:3.1.3]
+	at mil.arl.gift.net.xmlrpc.XMLRPCClient.callMethod(XMLRPCClient.java:101) ~[gift-common.jar:?]
+	at mil.arl.gift.net.xmlrpc.XMLRPCClient.callMethod(XMLRPCClient.java:133) [gift-common.jar:?]
+	at mil.arl.gift.gateway.interop.simple.SimpleExampleTAPluginInterface.setEnabled(SimpleExampleTAPluginInterface.java:299) [gift-gateway.jar:?]
+	at mil.arl.gift.gateway.GatewayModule.handleMessageFromGIFT(GatewayModule.java:1175) [gift-gateway.jar:?]
+	at mil.arl.gift.gateway.GatewayModule.handleLessonCompletedMessage(GatewayModule.java:681) [gift-gateway.jar:?]
+	at mil.arl.gift.gateway.GatewayModule.handleMessage(GatewayModule.java:624) [gift-gateway.jar:?]
+	at mil.arl.gift.common.module.AbstractModule$1.processMessage(AbstractModule.java:162) [gift-common.jar:?]
+	at mil.arl.gift.net.api.NetworkSession.handleDecodedMessage(NetworkSession.java:878) [gift-common.jar:?]
+	at mil.arl.gift.net.api.NetworkSession$2.run(NetworkSession.java:728) [gift-common.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:186) ~[?:?]
+	at java.net.SocketInputStream.read(SocketInputStream.java:140) ~[?:?]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:252) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:292) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
+	at sun.net.www.http.ChunkedInputStream.readAheadBlocking(ChunkedInputStream.java:552) ~[?:?]
+	at sun.net.www.http.ChunkedInputStream.readAhead(ChunkedInputStream.java:609) ~[?:?]
+	at sun.net.www.http.ChunkedInputStream.read(ChunkedInputStream.java:696) ~[?:?]
+	at java.io.FilterInputStream.read(FilterInputStream.java:133) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3444) ~[?:?]
+	at org.apache.xerces.impl.XMLEntityManager$RewindableInputStream.read(Unknown Source) ~[xercesImpl-2.9.1.jar:?]
+	at org.apache.xerces.impl.io.UTF8Reader.read(Unknown Source) ~[xercesImpl-2.9.1.jar:?]
+	at org.apache.xerces.impl.XMLEntityScanner.load(Unknown Source) ~[xercesImpl-2.9.1.jar:?]
+	at org.apache.xerces.impl.XMLEntityScanner.skipSpaces(Unknown Source) ~[xercesImpl-2.9.1.jar:?]
+	at org.apache.xerces.impl.XMLDocumentScannerImpl$TrailingMiscDispatcher.dispatch(Unknown Source) ~[xercesImpl-2.9.1.jar:?]
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source) ~[xercesImpl-2.9.1.jar:?]
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source) ~[xercesImpl-2.9.1.jar:?]
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source) ~[xercesImpl-2.9.1.jar:?]
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source) ~[xercesImpl-2.9.1.jar:?]
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source) ~[xercesImpl-2.9.1.jar:?]
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source) ~[xercesImpl-2.9.1.jar:?]
+	at org.apache.xmlrpc.client.XmlRpcStreamTransport.readResponse(XmlRpcStreamTransport.java:186) ~[xmlrpc-client-3.1.3.jar:3.1.3]
+	... 17 more

@@ -1,0 +1,11 @@
+02-26-2024 20:09:55 [Tutor_Discovery_Topic_Message_Listener] ERROR mil.arl.gift.net.api.message.MessageUtil - There is no support for decoding message of encoding type null, therefore the message = Hello tutor, this is VJK will not be handled
+02-26-2024 20:09:55 [Tutor_Discovery_Topic_Message_Listener] ERROR mil.arl.gift.net.api.MessageClient - Caught exception when decoding message = ActiveMQTextMessage {commandId = 5, responseRequired = false, messageId = ID:3a0c267bedbe-33231-1709002607218-4:2:1:1:1, originalDestination = null, originalTransactionId = null, producerId = ID:3a0c267bedbe-33231-1709002607218-4:2:1:1, destination = topic://Tutor_Discovery_Topic, transactionId = null, deliveryTime = 0, expiration = 0, timestamp = 1709006995392, arrival = 0, brokerInTime = 1709006995393, brokerOutTime = 1709006995401, correlationId = , replyTo = null, persistent = false, type = , priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = true, readOnlyBody = true, droppable = false, jmsXGroupFirstForConsumer = false, text = Hello tutor, this is VJK}
+Payload = Hello tutor, this is VJK
+mil.arl.gift.net.api.message.MessageDecodeException: MessageUtil was unable to decode message because Unable to decode message, check log for more details
+	at mil.arl.gift.net.api.message.MessageUtil.getMessageFromString(MessageUtil.java:90) ~[gift-common.jar:?]
+	at mil.arl.gift.net.api.NetworkSession$1.processMessage(NetworkSession.java:619) ~[gift-common.jar:?]
+	at mil.arl.gift.net.api.MessageClient.handleMessage(MessageClient.java:769) [gift-common.jar:?]
+	at mil.arl.gift.net.api.MessageClient.dispatchMessages(MessageClient.java:695) [gift-common.jar:?]
+	at mil.arl.gift.net.api.MessageClient.listen(MessageClient.java:738) [gift-common.jar:?]
+	at mil.arl.gift.net.api.MessageClient$1.run(MessageClient.java:124) [gift-common.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]

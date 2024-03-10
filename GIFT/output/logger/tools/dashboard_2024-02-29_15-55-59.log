@@ -1,0 +1,415 @@
+02-29-2024 15:56:11 [qtp654753422-35] DEBUG mil.arl.gift.tools.dashboard.server.UserSessionManager - mil.arl.gift.tools.dashboard.server.UserSessionManager@707ec047 - addStatusListener() [KnowledgeSessionMessageManager: ]
+02-29-2024 15:56:12 [qtp654753422-35] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitorModule - Creating WebMonitorModule instance.
+02-29-2024 15:56:12 [qtp654753422-35] DEBUG mil.arl.gift.tools.dashboard.server.UserSessionManager - mil.arl.gift.tools.dashboard.server.UserSessionManager@707ec047 - addStatusListener() mil.arl.gift.tools.dashboard.server.webmonitor.WebMonitorServiceManager@159a482b
+02-29-2024 15:56:13 [Tutor_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (Tutor_Module), queue name (Tutor_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:56:13 [Sensor_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (Sensor_Module), queue name (Sensor_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:56:13 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:56:13 [Learner_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (Learner_Module), queue name (Learner_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:56:13 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:56:13 [Pedagogical_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (Pedagogical_Module), queue name (Pedagogical_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:56:13 [Domain_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (Domain_Module), queue name (Domain_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:56:13 [Gateway_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (Gateway_Module), queue name (Gateway_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:56:36 [qtp654753422-37] DEBUG mil.arl.gift.tools.dashboard.server.UserSessionManager - createUserSession():  Adding user session: 52f8f35a-a7e3-4496-9954-834744348ea5user session size= 1
+02-29-2024 15:56:36 [qtp654753422-37] DEBUG mil.arl.gift.tools.dashboard.server.UserSessionManager - createBrowserSession for user([UserWebSession: dashboardSessionInfo = [DashboardHttpSessionData: sessionId = 52f8f35a-a7e3-4496-9954-834744348ea5, username = jvaida, offline = false], userSessionId = 52f8f35a-a7e3-4496-9954-834744348ea5], browserSession: [DashboardBrowserWebSession: browserwebSession = [BrowserWebSession: userSessionKey = 52f8f35a-a7e3-4496-9954-834744348ea5, browserSession = f2c2cbe7-c5e6-4ffc-ac86-740e106bbd8a, status = RUNNING, clientInfo = [WebClientInformation: clientAddress = 172.20.80.1, mobileAppProperties = null]]]
+02-29-2024 15:56:36 [qtp654753422-37] DEBUG mil.arl.gift.tools.dashboard.server.UserWebSession - addBrowserSession(): User(52f8f35a-a7e3-4496-9954-834744348ea5), Browser (f2c2cbe7-c5e6-4ffc-ac86-740e106bbd8a)
+02-29-2024 15:56:36 [qtp654753422-37] DEBUG mil.arl.gift.tools.dashboard.server.UserWebSession - addBrowserSession(): browsersession size=1
+02-29-2024 15:56:36 [qtp654753422-33] INFO  mil.arl.gift.tools.dashboard.server.DashboardWebSocketServlet - init() called
+02-29-2024 15:56:36 [qtp654753422-33] DEBUG mil.arl.gift.tools.dashboard.server.DashboardServerWebSocket - DashboardServerWebSocket()
+02-29-2024 15:56:43 [qtp654753422-38] DEBUG mil.arl.gift.tools.dashboard.server.DashboardServiceImpl - applying LMS history for jvaida to 28 courses.
+02-29-2024 15:56:43 [qtp654753422-38] DEBUG mil.arl.gift.tools.dashboard.server.DashboardServiceImpl - getCourseList - success for user: f2c2cbe7-c5e6-4ffc-ac86-740e106bbd8a. Found 28 courses total.
+02-29-2024 15:56:48 [qtp654753422-38] DEBUG mil.arl.gift.tools.dashboard.server.DashboardServiceImpl - start load course called for user: jvaida, course id: Public/Simple Example Training App Course/exampleCourse.course.xml
+02-29-2024 15:56:48 [qtp654753422-38] DEBUG mil.arl.gift.tools.dashboard.server.DashboardServiceImpl - loadCourse - loadCourse returned success with runtime course id: jvaida\2024-02-29_15-56-48\Simple Example Training App Course\exampleCourse.course.xml
+02-29-2024 15:56:55 [Monitor_Topic_Message_Listener] INFO  mil.arl.gift.tools.dashboard.server.WebMonitorModule - Adding new user [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null] to current mapping of user session ids of [] to tutor module identifier of Tutor_Queue_172.20.80.1_Inbox
+02-29-2024 15:56:59 [Monitor_Topic_Message_Listener] INFO  mil.arl.gift.tools.dashboard.server.webmonitor.message.PanelManager - Adding active domain session with id = 5 with a new message list model.
+02-29-2024 15:56:59 [Monitor_Topic_Message_Listener] INFO  mil.arl.gift.tools.dashboard.server.WebMonitorModule - Adding new domain session id of 5 to current mapping of domain session ids of 5 to domain module identifier of Domain_Queue_172.20.80.1_Inbox
+02-29-2024 15:59:49 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.KnowledgeSessionMessageManager - Dropping cached domain session data
+02-29-2024 15:59:49 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.gamemaster.DomainInformationCache - dropDomainSessionData([DomainSessionKey: domainSessionId = 5, experimentId = null, userId = 1, username = jvaida, playbackId = null])
+02-29-2024 15:59:49 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.KnowledgeSessionMessageManager - Dropping cached domain session data
+02-29-2024 15:59:49 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.gamemaster.DomainInformationCache - dropDomainSessionData([DomainSessionKey: domainSessionId = 5, experimentId = null, userId = 1, username = jvaida, playbackId = null])
+02-29-2024 15:59:49 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.KnowledgeSessionMessageManager - Dropping cached domain session data
+02-29-2024 15:59:49 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.gamemaster.DomainInformationCache - dropDomainSessionData([DomainSessionKey: domainSessionId = 5, experimentId = null, userId = 1, username = jvaida, playbackId = null])
+02-29-2024 15:59:49 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.KnowledgeSessionMessageManager - Dropping cached domain session data
+02-29-2024 15:59:49 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.gamemaster.DomainInformationCache - dropDomainSessionData([DomainSessionKey: domainSessionId = 5, experimentId = null, userId = 1, username = jvaida, playbackId = null])
+02-29-2024 15:59:49 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.KnowledgeSessionMessageManager - Dropping cached domain session data
+02-29-2024 15:59:49 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.gamemaster.DomainInformationCache - dropDomainSessionData([DomainSessionKey: domainSessionId = 5, experimentId = null, userId = 1, username = jvaida, playbackId = null])
+02-29-2024 15:59:56 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.KnowledgeSessionMessageManager - Dropping cached domain session data
+02-29-2024 15:59:56 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.gamemaster.DomainInformationCache - dropDomainSessionData([DomainSessionKey: domainSessionId = 5, experimentId = null, userId = 1, username = jvaida, playbackId = null])
+02-29-2024 15:59:56 [Monitor_Topic_Message_Listener] INFO  mil.arl.gift.tools.dashboard.server.WebMonitorModule - Removing domain session id of 5 from being mapped to domain module named Domain_Module
+02-29-2024 15:59:56 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.KnowledgeSessionMessageManager - Dropping cached domain session data
+02-29-2024 15:59:56 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.gamemaster.DomainInformationCache - dropDomainSessionData([DomainSessionKey: domainSessionId = 5, experimentId = null, userId = 1, username = jvaida, playbackId = null])
+02-29-2024 15:59:56 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitorModule - domainSessionsPendingRemoval already contains the domain session to be removed, NOT scheduling a removal timer.
+02-29-2024 15:59:56 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.KnowledgeSessionMessageManager - Dropping cached domain session data
+02-29-2024 15:59:56 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.gamemaster.DomainInformationCache - dropDomainSessionData([DomainSessionKey: domainSessionId = 5, experimentId = null, userId = 1, username = jvaida, playbackId = null])
+02-29-2024 15:59:56 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitorModule - domainSessionsPendingRemoval already contains the domain session to be removed, NOT scheduling a removal timer.
+02-29-2024 15:59:56 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.KnowledgeSessionMessageManager - Dropping cached domain session data
+02-29-2024 15:59:56 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.gamemaster.DomainInformationCache - dropDomainSessionData([DomainSessionKey: domainSessionId = 5, experimentId = null, userId = 1, username = jvaida, playbackId = null])
+02-29-2024 15:59:56 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitorModule - domainSessionsPendingRemoval already contains the domain session to be removed, NOT scheduling a removal timer.
+02-29-2024 15:59:56 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.KnowledgeSessionMessageManager - Dropping cached domain session data
+02-29-2024 15:59:56 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.gamemaster.DomainInformationCache - dropDomainSessionData([DomainSessionKey: domainSessionId = 5, experimentId = null, userId = 1, username = jvaida, playbackId = null])
+02-29-2024 15:59:56 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitorModule - domainSessionsPendingRemoval already contains the domain session to be removed, NOT scheduling a removal timer.
+02-29-2024 15:59:56 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.KnowledgeSessionMessageManager - Dropping cached domain session data
+02-29-2024 15:59:56 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.gamemaster.DomainInformationCache - dropDomainSessionData([DomainSessionKey: domainSessionId = 5, experimentId = null, userId = 1, username = jvaida, playbackId = null])
+02-29-2024 15:59:56 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitorModule - domainSessionsPendingRemoval already contains the domain session to be removed, NOT scheduling a removal timer.
+02-29-2024 15:59:56 [Monitor_Topic_Message_Listener] INFO  mil.arl.gift.tools.dashboard.server.WebMonitorModule - Adding new domain session id of 5 to current mapping of domain session ids of 5 to domain module identifier of Domain_Queue_172.20.80.1_Inbox
+02-29-2024 15:59:56 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.KnowledgeSessionMessageManager - Dropping cached domain session data
+02-29-2024 15:59:56 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.gamemaster.DomainInformationCache - dropDomainSessionData([DomainSessionKey: domainSessionId = 5, experimentId = null, userId = 1, username = jvaida, playbackId = null])
+02-29-2024 15:59:56 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitorModule - domainSessionsPendingRemoval already contains the domain session to be removed, NOT scheduling a removal timer.
+02-29-2024 15:59:56 [Monitor_Topic_Message_Listener] INFO  mil.arl.gift.tools.dashboard.server.WebMonitorModule - Removing domain session id of 5 from being mapped to domain module named Domain_Module
+02-29-2024 15:59:56 [qtp654753422-31] DEBUG mil.arl.gift.tools.dashboard.server.DashboardServiceImpl - endCourse - called with browserSessionId: f2c2cbe7-c5e6-4ffc-ac86-740e106bbd8a, domainId =jvaida\2024-02-29_15-56-48\Simple Example Training App Course\exampleCourse.course.xml
+02-29-2024 15:59:56 [qtp654753422-38] DEBUG mil.arl.gift.tools.dashboard.server.DashboardServiceImpl - endCourse - called with browserSessionId: f2c2cbe7-c5e6-4ffc-ac86-740e106bbd8a, domainId =jvaida\2024-02-29_15-56-48\Simple Example Training App Course\exampleCourse.course.xml
+02-29-2024 15:59:56 [qtp654753422-31] DEBUG mil.arl.gift.tools.dashboard.server.DashboardServiceImpl - endCourse - success for user: jvaida, course: jvaida\2024-02-29_15-56-48\Simple Example Training App Course\exampleCourse.course.xml
+02-29-2024 16:00:01 [Delayed Domain Session Remove] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitorModule - Removing domain session: 5
+02-29-2024 16:00:01 [Delayed User Session Remove] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitorModule - Removing user session: [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null]
+02-29-2024 16:00:01 [Delayed User Session Remove] INFO  mil.arl.gift.tools.dashboard.server.WebMonitorModule - Removing user session id of 1 from being mapped to tutor module named Tutor_Module
+02-29-2024 16:00:09 [qtp654753422-38] DEBUG mil.arl.gift.tools.dashboard.server.DashboardServiceImpl - applying LMS history for jvaida to 28 courses.
+02-29-2024 16:00:10 [qtp654753422-38] DEBUG mil.arl.gift.tools.dashboard.server.DashboardServiceImpl - getCourseList - success for user: f2c2cbe7-c5e6-4ffc-ac86-740e106bbd8a. Found 28 courses total.
+02-29-2024 16:00:10 [qtp654753422-34] DEBUG mil.arl.gift.tools.dashboard.server.DashboardServiceImpl - applying LMS history for jvaida to 28 courses.
+02-29-2024 16:00:11 [qtp654753422-34] DEBUG mil.arl.gift.tools.dashboard.server.DashboardServiceImpl - getCourseList - success for user: f2c2cbe7-c5e6-4ffc-ac86-740e106bbd8a. Found 28 courses total.
+02-29-2024 16:00:24 [qtp654753422-1020] WARN  mil.arl.gift.common.gwt.server.websocket.AbstractServerWebSocket - A websocket connection was closed unexpectedly.
+Reason: Code 1005 - null
+Details: Unable to communicate with the server. The connection was terminated but no status was given. Please check this error's details for more information about why the connection was terminated.
+02-29-2024 16:00:24 [qtp654753422-1020] DEBUG mil.arl.gift.tools.dashboard.server.DashboardBrowserWebSession - Browser session is ending, scheduling cleanup timer.
+02-29-2024 16:00:24 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@60692] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'WebMonitor_Queue:172.20.80.1' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+02-29-2024 16:00:24 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@60702] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'Monitor_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+02-29-2024 16:00:24 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@60701] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'Monitor_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+02-29-2024 16:00:24 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@60700] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'Domain_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+02-29-2024 16:00:24 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@60699] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'Tutor_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+02-29-2024 16:00:24 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@60698] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'Gateway_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+02-29-2024 16:00:24 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@60697] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'Pedagogical_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+02-29-2024 16:00:24 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@60696] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'Learner_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+02-29-2024 16:00:24 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@60693] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'UMS_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+02-29-2024 16:00:24 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@60694] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'LMS_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+02-29-2024 16:00:24 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@60695] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'Sensor_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+02-29-2024 16:00:24 [LMS_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+02-29-2024 16:00:24 [UMS_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+02-29-2024 16:00:24 [Learner_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+02-29-2024 16:00:24 [Pedagogical_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+02-29-2024 16:00:24 [Domain_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+02-29-2024 16:00:24 [Monitor_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+02-29-2024 16:00:24 [Gateway_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+02-29-2024 16:00:24 [Tutor_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+02-29-2024 16:00:24 [Monitor_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+02-29-2024 16:00:24 [WebMonitor_Queue:172.20.80.1_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+02-29-2024 16:00:24 [Sensor_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+02-29-2024 16:00:24 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name Monitor_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown] for message type WebMonitorModuleStatus
+02-29-2024 16:00:24 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type WebMonitorModuleStatus with payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name Monitor_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.tools.dashboard.server.WebMonitorModule.sendModuleStatus(WebMonitorModule.java:335) [classes/:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+02-29-2024 16:00:25 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name Monitor_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown] for message type WebMonitorModuleStatus
+02-29-2024 16:00:25 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type WebMonitorModuleStatus with payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name Monitor_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.tools.dashboard.server.WebMonitorModule.sendModuleStatus(WebMonitorModule.java:335) [classes/:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+02-29-2024 16:00:26 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name Monitor_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown] for message type WebMonitorModuleStatus
+02-29-2024 16:00:26 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type WebMonitorModuleStatus with payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name Monitor_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.tools.dashboard.server.WebMonitorModule.sendModuleStatus(WebMonitorModule.java:335) [classes/:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+02-29-2024 16:00:27 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name Monitor_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown] for message type WebMonitorModuleStatus
+02-29-2024 16:00:27 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type WebMonitorModuleStatus with payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name Monitor_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.tools.dashboard.server.WebMonitorModule.sendModuleStatus(WebMonitorModule.java:335) [classes/:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+02-29-2024 16:00:28 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name Monitor_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown] for message type WebMonitorModuleStatus
+02-29-2024 16:00:28 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type WebMonitorModuleStatus with payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name Monitor_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.tools.dashboard.server.WebMonitorModule.sendModuleStatus(WebMonitorModule.java:335) [classes/:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+02-29-2024 16:00:29 [Remove Dashboard Browser Session Timer] DEBUG mil.arl.gift.tools.dashboard.server.DashboardBrowserWebSession - Browser session: mil.arl.gift.tools.dashboard.server.DashboardBrowserWebSession$1@50efb093 has ended
+02-29-2024 16:00:29 [Remove Dashboard Browser Session Timer] DEBUG mil.arl.gift.tools.dashboard.server.UserSessionManager - removing session: f2c2cbe7-c5e6-4ffc-ac86-740e106bbd8a
+02-29-2024 16:00:29 [Remove Dashboard Browser Session Timer] DEBUG mil.arl.gift.tools.dashboard.server.UserWebSession - removeBrowserSession(): User(52f8f35a-a7e3-4496-9954-834744348ea5), Browser (f2c2cbe7-c5e6-4ffc-ac86-740e106bbd8a)
+02-29-2024 16:00:29 [Remove Dashboard Browser Session Timer] DEBUG mil.arl.gift.tools.dashboard.server.UserWebSession - removeBrowserSession(): browsersession size=0
+02-29-2024 16:00:29 [Remove Dashboard Browser Session Timer] DEBUG mil.arl.gift.tools.dashboard.server.UserSessionManager - removeUserWebSession(): User(52f8f35a-a7e3-4496-9954-834744348ea5)
+02-29-2024 16:00:29 [Remove Dashboard Browser Session Timer] DEBUG mil.arl.gift.tools.dashboard.server.UserSessionManager - removeUserWebSession():  user session size=0
+02-29-2024 16:00:29 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: Sensor_Module
+02-29-2024 16:00:29 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 16:00:29 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: Tutor_Module
+02-29-2024 16:00:29 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: Domain_Module
+02-29-2024 16:00:29 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: Pedagogical_Module
+02-29-2024 16:00:29 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: Learner_Module
+02-29-2024 16:00:29 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name Monitor_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown] for message type WebMonitorModuleStatus
+02-29-2024 16:00:29 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type WebMonitorModuleStatus with payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name Monitor_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.tools.dashboard.server.WebMonitorModule.sendModuleStatus(WebMonitorModule.java:335) [classes/:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+02-29-2024 16:00:30 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name Monitor_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown] for message type WebMonitorModuleStatus
+02-29-2024 16:00:30 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type WebMonitorModuleStatus with payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name Monitor_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.tools.dashboard.server.WebMonitorModule.sendModuleStatus(WebMonitorModule.java:335) [classes/:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+02-29-2024 16:00:31 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name Monitor_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown] for message type WebMonitorModuleStatus
+02-29-2024 16:00:31 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type WebMonitorModuleStatus with payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name Monitor_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.tools.dashboard.server.WebMonitorModule.sendModuleStatus(WebMonitorModule.java:335) [classes/:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+02-29-2024 16:00:32 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name Monitor_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown] for message type WebMonitorModuleStatus
+02-29-2024 16:00:32 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type WebMonitorModuleStatus with payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name Monitor_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.tools.dashboard.server.WebMonitorModule.sendModuleStatus(WebMonitorModule.java:335) [classes/:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+02-29-2024 16:00:33 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name Monitor_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown] for message type WebMonitorModuleStatus
+02-29-2024 16:00:33 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type WebMonitorModuleStatus with payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name Monitor_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.tools.dashboard.server.WebMonitorModule.sendModuleStatus(WebMonitorModule.java:335) [classes/:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+02-29-2024 16:00:34 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: Gateway_Module
+02-29-2024 16:00:34 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 16:00:34 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name Monitor_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown] for message type WebMonitorModuleStatus
+02-29-2024 16:00:34 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type WebMonitorModuleStatus with payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name Monitor_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.tools.dashboard.server.WebMonitorModule.sendModuleStatus(WebMonitorModule.java:335) [classes/:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]

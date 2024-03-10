@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+    <technical>
+        <location>G_2020_10_28_11_4_37_691_converted.mp4</location>
+    </technical>
+    <general>
+        <identifier>
+            <catalog>start_time</catalog>
+            <entry>1615160937203</entry>
+        </identifier>
+        <identifier>
+            <catalog>offset</catalog>
+            <entry>0</entry>
+        </identifier>
+        <identifier>
+            <catalog>title</catalog>
+            <entry>Alpha Grenadier</entry>
+        </identifier>
+    </general>
+</lom>

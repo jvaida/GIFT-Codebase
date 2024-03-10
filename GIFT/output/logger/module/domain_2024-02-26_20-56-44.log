@@ -1,0 +1,21 @@
+02-26-2024 20:56:50 [main] ERROR mil.arl.gift.domain.DomainModule - Caught an exception while starting file server
+java.io.IOException: Failed to bind to 0.0.0.0/0.0.0.0:8885
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:349) ~[jetty-server-9.4.41.v20210516.jar:9.4.41.v20210516]
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:310) ~[jetty-server-9.4.41.v20210516.jar:9.4.41.v20210516]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80) ~[jetty-server-9.4.41.v20210516.jar:9.4.41.v20210516]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:234) ~[jetty-server-9.4.41.v20210516.jar:9.4.41.v20210516]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) ~[jetty-util-9.4.41.v20210516.jar:9.4.41.v20210516]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:401) ~[jetty-server-9.4.41.v20210516.jar:9.4.41.v20210516]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) ~[jetty-util-9.4.41.v20210516.jar:9.4.41.v20210516]
+	at mil.arl.gift.domain.DomainModule.startFileServer(DomainModule.java:4743) [gift-domain.jar:?]
+	at mil.arl.gift.domain.DomainModule.init(DomainModule.java:427) [gift-domain.jar:?]
+	at mil.arl.gift.domain.DomainModule.getInstance(DomainModule.java:296) [gift-domain.jar:?]
+	at mil.arl.gift.domain.DomainModule.main(DomainModule.java:5029) [gift-domain.jar:?]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:461) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:453) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227) ~[?:?]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80) ~[?:?]
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:344) ~[jetty-server-9.4.41.v20210516.jar:9.4.41.v20210516]
+	... 10 more

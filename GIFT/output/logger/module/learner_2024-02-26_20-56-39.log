@@ -1,0 +1,7 @@
+02-26-2024 20:56:42 [Thread-4] ERROR mil.arl.gift.common.python.ProcessStreamProcessor - src.py/xml.rpc.server/XmlRpcServer.py ERROR> Traceback (most recent call last):
+src.py/xml.rpc.server/XmlRpcServer.py ERROR>   File "F:\Projects\release_2023-1\GIFT\src.py\xml.rpc.server\XmlRpcServer.py", line 9, in <module>
+src.py/xml.rpc.server/XmlRpcServer.py ERROR>     from IncECGdetection import *
+src.py/xml.rpc.server/XmlRpcServer.py ERROR>   File "F:\Projects\release_2023-1\GIFT\src.py\xml.rpc.server\IncECGdetection.py", line 5, in <module>
+src.py/xml.rpc.server/XmlRpcServer.py ERROR>     import scipy
+src.py/xml.rpc.server/XmlRpcServer.py ERROR> ModuleNotFoundError: No module named 'scipy'
+

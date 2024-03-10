@@ -1,0 +1,140 @@
+15:57:55 [main] INFO  mil.arl.gift.common.io.CommonProperties - Reading properties file named config\version.txt
+15:57:55 [main] INFO  mil.arl.gift.common.io.CommonProperties - Reading properties from stream
+15:57:55 [main] INFO  mil.arl.gift.common.io.CommonProperties - Finished reading properties stream
+15:57:55 [main] INFO  mil.arl.gift.common.io.CommonProperties - Finished reading properties file
+15:57:55 [main] INFO  mil.arl.gift.common.io.CommonProperties - Reading properties file named config\common.properties
+15:57:55 [main] INFO  mil.arl.gift.common.io.CommonProperties - Reading properties from stream
+15:57:55 [main] INFO  mil.arl.gift.common.io.CommonProperties - Finished reading properties stream
+15:57:55 [main] INFO  mil.arl.gift.common.io.CommonProperties - Finished reading properties file
+15:57:55 [main] INFO  mil.arl.gift.common.io.CommonProperties - Reading properties file named config\tools\install\install.properties
+15:57:55 [main] INFO  mil.arl.gift.common.io.CommonProperties - Reading properties from stream
+15:57:55 [main] INFO  mil.arl.gift.common.io.CommonProperties - Finished reading properties stream
+15:57:55 [main] INFO  mil.arl.gift.common.io.CommonProperties - Finished reading properties file
+15:57:55 [main] INFO  mil.arl.gift.common.io.CommonProperties - Reading properties file named config\common.properties
+15:57:55 [main] INFO  mil.arl.gift.common.io.CommonProperties - Reading properties from stream
+15:57:55 [main] INFO  mil.arl.gift.common.io.CommonProperties - Finished reading properties stream
+15:57:55 [main] INFO  mil.arl.gift.common.io.CommonProperties - Finished reading properties file
+15:57:55 [main] INFO  mil.arl.gift.common.io.CommonProperties - Reading properties file named config\common.properties
+15:57:55 [main] INFO  mil.arl.gift.common.io.CommonProperties - Reading properties from stream
+15:57:55 [main] INFO  mil.arl.gift.common.io.CommonProperties - Finished reading properties stream
+15:57:55 [main] INFO  mil.arl.gift.common.io.CommonProperties - Finished reading properties file
+15:57:56 [main] INFO  mil.arl.gift.common.io.CommonProperties - Reading properties file named config\gateway\gateway.properties
+15:57:56 [main] INFO  mil.arl.gift.common.io.CommonProperties - Reading properties from stream
+15:57:56 [main] INFO  mil.arl.gift.common.io.CommonProperties - Finished reading properties stream
+15:57:56 [main] INFO  mil.arl.gift.common.io.CommonProperties - Finished reading properties file
+15:57:56 [main] INFO  mil.arl.gift.common.io.CommonProperties - Reading properties file named config\gateway.remote.properties
+15:57:56 [main] INFO  mil.arl.gift.common.io.CommonProperties - Reading properties file named config\module.common.properties
+15:57:56 [main] INFO  mil.arl.gift.common.io.CommonProperties - Reading properties from stream
+15:57:56 [main] INFO  mil.arl.gift.common.io.CommonProperties - Finished reading properties stream
+15:57:56 [main] INFO  mil.arl.gift.common.io.CommonProperties - Finished reading properties file
+15:57:56 [main] INFO  mil.arl.gift.common.io.CommonProperties - Reading properties file named config\common.properties
+15:57:56 [main] INFO  mil.arl.gift.common.io.CommonProperties - Reading properties from stream
+15:57:56 [main] INFO  mil.arl.gift.common.io.CommonProperties - Finished reading properties stream
+15:57:56 [main] INFO  mil.arl.gift.common.io.CommonProperties - Finished reading properties file
+15:57:59 [JavaFX Application Thread] INFO  mil.arl.gift.gateway.installer.TrainingApplicationInstallPage - Found unhandled training application type of 'ARES'.  No installer UI component will be created for it.
+15:57:59 [JavaFX Application Thread] INFO  mil.arl.gift.gateway.installer.TrainingApplicationInstallPage - Building DE Testbed install instructions.
+15:58:00 [JavaFX Application Thread] INFO  mil.arl.gift.gateway.installer.TrainingApplicationInstallPage - Found unhandled training application type of 'HAVEN'.  No installer UI component will be created for it.
+15:58:00 [JavaFX Application Thread] INFO  mil.arl.gift.gateway.installer.TrainingApplicationInstallPage - Found unhandled training application type of 'MobileDeviceEvents'.  No installer UI component will be created for it.
+15:58:00 [JavaFX Application Thread] INFO  mil.arl.gift.gateway.installer.TrainingApplicationInstallPage - Building PowerPoint install instructions.
+15:58:00 [JavaFX Application Thread] DEBUG mil.arl.gift.gateway.interop.ppt.FindOfficeInstallation - Looking through 4 GUIDs.
+15:58:00 [main] DEBUG org.ciscavate.cjwizard.WizardContainer - next page
+15:58:00 [AWT-EventQueue-0] DEBUG org.ciscavate.cjwizard.WizardContainer - Setting page: 0: Welcome
+15:58:00 [main] INFO  mil.arl.gift.common.io.CommonProperties - Reading properties file named config\images.properties
+15:58:00 [main] INFO  mil.arl.gift.common.io.CommonProperties - Reading properties from stream
+15:58:00 [main] INFO  mil.arl.gift.common.io.CommonProperties - Finished reading properties stream
+15:58:00 [main] INFO  mil.arl.gift.common.io.CommonProperties - Finished reading properties file
+15:58:00 [main] INFO  mil.arl.gift.common.io.CommonProperties - Reading properties file named config\common.properties
+15:58:00 [main] INFO  mil.arl.gift.common.io.CommonProperties - Reading properties from stream
+15:58:00 [main] INFO  mil.arl.gift.common.io.CommonProperties - Finished reading properties stream
+15:58:00 [main] INFO  mil.arl.gift.common.io.CommonProperties - Finished reading properties file
+15:58:00 [JavaFX Application Thread] DEBUG mil.arl.gift.gateway.interop.ppt.FindOfficeInstallation - Looking through 4 registry paths.
+15:58:01 [JavaFX Application Thread] DEBUG mil.arl.gift.gateway.interop.ppt.FindOfficeInstallation - The output for location 'HKEY_LOCAL_MACHINE\SOFTWARE\Classes\MSPowerPoint\protocol\StdFileEditing\server\powerpnt.exe' doesn't contain the key 'REG_SZ', therefore trying to retrieve the Windows registry value.
+output = 'ERROR: The system was unable to find the specified registry key or value.'.
+15:58:02 [JavaFX Application Thread] DEBUG mil.arl.gift.gateway.interop.ppt.FindOfficeInstallation - The output for location 'HKEY_LOCAL_MACHINE\SOFTWARE\Classes\MSPowerPoint\protocol\StdFileEditing\server\powerpnt.exe' doesn't contain the key 'REG_SZ', therefore trying to retrieve the Windows registry value.
+output = 'ERROR: The system was unable to find the specified registry key or value.'.
+15:58:02 [JavaFX Application Thread] DEBUG mil.arl.gift.gateway.interop.ppt.FindOfficeInstallation - The output for location 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\ClickToRun\REGISTRY\MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\powerpnt.exe' doesn't contain the key 'REG_SZ', therefore trying to retrieve the Windows registry value.
+output = 'ERROR: The system was unable to find the specified registry key or value.'.
+15:58:02 [JavaFX Application Thread] DEBUG mil.arl.gift.gateway.interop.ppt.FindOfficeInstallation - The output for location 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\ClickToRun\REGISTRY\MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\powerpnt.exe' doesn't contain the key 'REG_SZ', therefore trying to retrieve the Windows registry value.
+output = 'ERROR: The system was unable to find the specified registry key or value.'.
+15:58:02 [JavaFX Application Thread] DEBUG mil.arl.gift.gateway.interop.ppt.FindOfficeInstallation - The output for location 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\14.0\ClickToRun\REGISTRY\MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\powerpnt.exe' doesn't contain the key 'REG_SZ', therefore trying to retrieve the Windows registry value.
+output = 'ERROR: The system was unable to find the specified registry key or value.'.
+15:58:02 [JavaFX Application Thread] DEBUG mil.arl.gift.gateway.interop.ppt.FindOfficeInstallation - The output for location 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\14.0\ClickToRun\REGISTRY\MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\powerpnt.exe' doesn't contain the key 'REG_SZ', therefore trying to retrieve the Windows registry value.
+output = 'ERROR: The system was unable to find the specified registry key or value.'.
+15:58:02 [JavaFX Application Thread] DEBUG mil.arl.gift.gateway.interop.ppt.FindOfficeInstallation - The output for location 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\ClickToRun\REGISTRY\MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\powerpnt.exe' doesn't contain the key 'REG_SZ', therefore trying to retrieve the Windows registry value.
+output = 'ERROR: The system was unable to find the specified registry key or value.'.
+15:58:02 [JavaFX Application Thread] DEBUG mil.arl.gift.gateway.interop.ppt.FindOfficeInstallation - The output for location 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\ClickToRun\REGISTRY\MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\powerpnt.exe' doesn't contain the key 'REG_SZ', therefore trying to retrieve the Windows registry value.
+output = 'ERROR: The system was unable to find the specified registry key or value.'.
+15:58:02 [JavaFX Application Thread] DEBUG mil.arl.gift.gateway.interop.ppt.FindOfficeInstallation - Checking 0 PowerPoint type libary instances found on this computer.
+15:58:03 [JavaFX Application Thread] INFO  mil.arl.gift.gateway.installer.TrainingApplicationInstallPage - The PowerPoint environment variable was found: C:\Program Files\Microsoft Office\Office16\MSPPT.OLB
+15:58:03 [JavaFX Application Thread] INFO  mil.arl.gift.gateway.installer.TrainingApplicationInstallPage - It appears a PowerPoint environment variable has been set, however, the version of PowerPoint is not supported.
+15:58:03 [JavaFX Application Thread] INFO  mil.arl.gift.gateway.installer.TrainingApplicationInstallPage - set powerpoint home install page variable to 'C:\Program Files\Microsoft Office\Office16\MSPPT.OLB' because it was found but is unsupported.
+15:58:03 [JavaFX Application Thread] INFO  mil.arl.gift.gateway.installer.TrainingApplicationInstallPage - Found unhandled training application type of 'RIDE'.  No installer UI component will be created for it.
+15:58:03 [JavaFX Application Thread] INFO  mil.arl.gift.gateway.installer.TrainingApplicationInstallPage - Building TC3 install instructions.
+15:58:03 [JavaFX Application Thread] INFO  mil.arl.gift.gateway.installer.TrainingApplicationInstallPage - Building Unity GIFT Wrap install instructions.
+15:58:03 [JavaFX Application Thread] INFO  mil.arl.gift.gateway.installer.TrainingApplicationInstallPage - Found unhandled training application type of 'UnityDesktop'.  No installer UI component will be created for it.
+15:58:03 [JavaFX Application Thread] INFO  mil.arl.gift.gateway.installer.TrainingApplicationInstallPage - Building VBS install instructions.
+15:58:03 [JavaFX Application Thread] INFO  mil.arl.gift.gateway.installer.TrainingApplicationInstallPage - Building VR-Engage install instructions.
+15:58:16 [AWT-EventQueue-0] DEBUG org.ciscavate.cjwizard.WizardContainer - next page
+15:58:16 [AWT-EventQueue-0] DEBUG org.ciscavate.cjwizard.WizardContainer - Setting page: 1: Character Server
+15:58:19 [AWT-EventQueue-0] DEBUG org.ciscavate.cjwizard.WizardContainer - next page
+15:58:19 [AWT-EventQueue-0] DEBUG org.ciscavate.cjwizard.WizardContainer - Setting page: 2: Database
+15:58:20 [AWT-EventQueue-0] DEBUG org.ciscavate.cjwizard.WizardContainer - next page
+15:58:20 [AWT-EventQueue-0] DEBUG org.ciscavate.cjwizard.WizardContainer - Setting page: 3: Training Applications
+15:58:21 [AWT-EventQueue-0] DEBUG org.ciscavate.cjwizard.WizardContainer - next page
+15:58:21 [AWT-EventQueue-0] INFO  mil.arl.gift.gateway.installer.TrainingApplicationInstallPage - Checking if any settings need to be changed.
+15:58:21 [AWT-EventQueue-0] INFO  mil.arl.gift.gateway.installer.TrainingApplicationInstallPage - Will be updating 'POWERPOINT_HOME' value to 'C:\Program Files\Microsoft Office\Office16\MSPPT.OLB'.
+15:58:21 [AWT-EventQueue-0] INFO  mil.arl.gift.gateway.installer.TrainingApplicationInstallPage - Updating 'UNITY_LAND_NAV_DOWNLOAD' value to 'false'.
+15:58:21 [AWT-EventQueue-0] DEBUG org.ciscavate.cjwizard.WizardContainer - Setting page: 4: Miscellaneous
+15:58:22 [AWT-EventQueue-0] DEBUG org.ciscavate.cjwizard.WizardContainer - next page
+15:58:22 [AWT-EventQueue-0] DEBUG org.ciscavate.cjwizard.WizardContainer - Setting page: 6: Summary
+15:58:24 [AWT-EventQueue-0] DEBUG org.ciscavate.cjwizard.WizardContainer - finish
+15:58:24 [AWT-EventQueue-0] INFO  mil.arl.gift.tools.installer.InstallWizardListener - Wizard finished, starting install process
+15:58:24 [SwingWorker-pool-4-thread-1] INFO  mil.arl.gift.tools.installer.InstallThread - Starting install
+15:58:24 [SwingWorker-pool-4-thread-1] INFO  mil.arl.gift.tools.installer.InstallThread - Handling GIFT Databases.
+15:58:27 [SwingWorker-pool-4-thread-1] INFO  mil.arl.gift.tools.installer.InstallThread - stopping derby server:
+64x JDK exists
+using Java of F:\Projects\release_2023-1\GIFT\external\db-derby-10.15.2.0-bin\bin\..\..\jdk-11\bin\java.exe
+Sat Feb 24 15:58:27 MST 2024 : Could not connect to Derby Network Server on host localhost, port 1527: Connection refused: connect
+15:58:27 [SwingWorker-pool-4-thread-1] INFO  mil.arl.gift.tools.installer.InstallThread - Deleted data\derbyDb\GiftUms
+15:58:39 [SwingWorker-pool-4-thread-1] INFO  mil.arl.gift.tools.installer.InstallThread - Extract UMS database - output of command = 
+Microsoft (R) Windows Script Host Version 5.812
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Unzipping data/derbyDb/DerbyDB.UMS.Backup.Original.zip
+15:58:42 [SwingWorker-pool-4-thread-1] INFO  mil.arl.gift.tools.installer.InstallThread - stopping derby server:
+64x JDK exists
+using Java of F:\Projects\release_2023-1\GIFT\external\db-derby-10.15.2.0-bin\bin\..\..\jdk-11\bin\java.exe
+Sat Feb 24 15:58:42 MST 2024 : Could not connect to Derby Network Server on host localhost, port 1527: Connection refused: connect
+15:58:42 [SwingWorker-pool-4-thread-1] INFO  mil.arl.gift.tools.installer.InstallThread - Deleted data\derbyDb\GiftLms
+15:58:46 [SwingWorker-pool-4-thread-1] INFO  mil.arl.gift.tools.installer.InstallThread - Extract LMS database - output of command = 
+Microsoft (R) Windows Script Host Version 5.812
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Unzipping data/derbyDb/DerbyDB.LMS.Backup.Original.zip
+15:58:46 [SwingWorker-pool-4-thread-1] INFO  mil.arl.gift.tools.installer.InstallThread - Handling Media Semantics.
+15:58:46 [SwingWorker-pool-4-thread-1] INFO  mil.arl.gift.tools.installer.InstallThread - Checking VBS settings.
+15:58:46 [SwingWorker-pool-4-thread-1] INFO  mil.arl.gift.tools.installer.InstallThread - Checking DE Testbed settings.
+15:58:46 [SwingWorker-pool-4-thread-1] INFO  mil.arl.gift.gateway.interop.InteropConfigFileHandler - Loading interop config file of config/gateway/configurations/default.interopConfig.xml from file on disk.
+15:58:46 [SwingWorker-pool-4-thread-1] INFO  mil.arl.gift.gateway.interop.InteropConfigFileHandler - Set interop implementation named 'DE Testbed DIS Adapter' availability value to false.
+15:58:46 [SwingWorker-pool-4-thread-1] INFO  mil.arl.gift.gateway.interop.InteropConfigFileHandler - Set interop implementation named 'DE Testbed XMLRPC Adapter' availability value to false.
+15:58:46 [SwingWorker-pool-4-thread-1] INFO  mil.arl.gift.tools.installer.InstallThread - Checking PowerPoint settings.
+15:58:46 [SwingWorker-pool-4-thread-1] INFO  mil.arl.gift.common.io.UserEnvironmentUtil - Setting POWERPOINT_HOME environment variable to C:\Program Files\Microsoft Office\Office16\MSPPT.OLB.
+15:58:47 [SwingWorker-pool-4-thread-1] INFO  mil.arl.gift.common.io.UserEnvironmentUtil - Set POWERPOINT_HOME environment variable script output = '
+Setting POWERPOINT_HOME environment variable to C:\Program Files\Microsoft Office\Office16\MSPPT.OLB.
+
+SUCCESS: Specified value was saved.'.
+15:58:47 [SwingWorker-pool-4-thread-1] INFO  mil.arl.gift.gateway.interop.InteropConfigFileHandler - Set interop implementation named 'Powerpoint Adapter' availability value to true.
+15:58:47 [SwingWorker-pool-4-thread-1] INFO  mil.arl.gift.tools.installer.InstallThread - Downloading Unity project.
+15:58:47 [SwingWorker-pool-4-thread-1] INFO  mil.arl.gift.tools.installer.InstallThread - Checking VR-Engage settings.
+15:58:47 [SwingWorker-pool-4-thread-1] INFO  mil.arl.gift.common.io.AbstractSchemaHandler - Writing contents to file of outputStream.
+15:58:47 [SwingWorker-pool-4-thread-1] INFO  mil.arl.gift.common.io.AbstractSchemaHandler - Successfully wrote contents
+15:58:47 [SwingWorker-pool-4-thread-1] INFO  mil.arl.gift.tools.installer.InstallThread - Setting Python variable.
+15:58:47 [SwingWorker-pool-4-thread-1] INFO  mil.arl.gift.common.io.UserEnvironmentUtil - Setting GIFT_PYTHON_HOME environment variable to C:\Python311.
+15:58:47 [SwingWorker-pool-4-thread-1] INFO  mil.arl.gift.common.io.UserEnvironmentUtil - Set GIFT_PYTHON_HOME environment variable script output = '
+Setting GIFT_PYTHON_HOME environment variable to C:\Python311.
+
+SUCCESS: Specified value was saved.'.
+15:58:47 [SwingWorker-pool-4-thread-1] INFO  mil.arl.gift.tools.installer.InstallThread - Copying launch script to root directory.
+15:58:47 [SwingWorker-pool-4-thread-1] INFO  mil.arl.gift.tools.installer.InstallThread - Copying uninstall script to root directory.
+15:58:47 [SwingWorker-pool-4-thread-1] INFO  mil.arl.gift.tools.installer.InstallThread - Copying readme to root directory.
+15:58:52 [AWT-EventQueue-0] DEBUG mil.arl.gift.tools.installer.ProgressDialog - Open GIFT readme output = .

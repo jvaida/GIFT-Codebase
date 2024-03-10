@@ -1,0 +1,772 @@
+02-29-2024 15:36:39 [qtp1962914643-31] DEBUG mil.arl.gift.tools.dashboard.server.UserSessionManager - mil.arl.gift.tools.dashboard.server.UserSessionManager@3d553eaf - addStatusListener() [KnowledgeSessionMessageManager: ]
+02-29-2024 15:36:39 [qtp1962914643-31] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitorModule - Creating WebMonitorModule instance.
+02-29-2024 15:36:40 [qtp1962914643-31] DEBUG mil.arl.gift.tools.dashboard.server.UserSessionManager - mil.arl.gift.tools.dashboard.server.UserSessionManager@3d553eaf - addStatusListener() mil.arl.gift.tools.dashboard.server.webmonitor.WebMonitorServiceManager@6c9623af
+02-29-2024 15:36:41 [Domain_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (Domain_Module), queue name (Domain_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:36:41 [Gateway_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (Gateway_Module), queue name (Gateway_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:36:41 [Tutor_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (Tutor_Module), queue name (Tutor_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:36:41 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:36:41 [Pedagogical_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (Pedagogical_Module), queue name (Pedagogical_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:36:41 [Learner_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (Learner_Module), queue name (Learner_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:36:41 [Sensor_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (Sensor_Module), queue name (Sensor_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:36:41 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:36:41 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:36:41 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:36:51 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:36:51 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:36:51 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:36:51 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:37:01 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:37:01 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:37:01 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:37:02 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:37:11 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:37:11 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:37:16 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:37:16 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:37:21 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:37:21 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:37:27 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:37:27 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:37:31 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:37:32 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:37:41 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:37:41 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:37:41 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:37:42 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:37:52 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:37:52 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:37:52 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:37:52 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:38:02 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:38:02 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:38:06 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:38:07 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:38:12 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:38:12 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:38:17 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:38:18 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:38:22 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:38:22 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:38:32 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:38:32 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:38:32 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:38:32 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:38:42 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:38:42 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:38:43 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:38:43 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:38:52 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:38:52 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:38:57 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:38:57 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:39:02 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:39:03 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:39:08 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:39:08 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:39:12 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:39:13 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:39:22 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:39:22 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:39:23 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:39:24 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:39:33 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:39:33 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:39:33 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:39:34 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:39:44 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:39:44 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:39:47 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:39:48 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:39:54 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:39:54 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:39:58 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:39:59 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:40:04 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:40:04 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:40:13 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:40:13 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:40:14 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:40:14 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:40:24 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:40:24 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:40:24 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:40:24 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:40:27 [qtp1962914643-34] DEBUG mil.arl.gift.tools.dashboard.server.UserSessionManager - createUserSession():  Adding user session: 35cc9f54-1aed-4a79-9f6e-8a0a25d93029user session size= 1
+02-29-2024 15:40:27 [qtp1962914643-34] DEBUG mil.arl.gift.tools.dashboard.server.UserSessionManager - createBrowserSession for user([UserWebSession: dashboardSessionInfo = [DashboardHttpSessionData: sessionId = 35cc9f54-1aed-4a79-9f6e-8a0a25d93029, username = jvaida, offline = false], userSessionId = 35cc9f54-1aed-4a79-9f6e-8a0a25d93029], browserSession: [DashboardBrowserWebSession: browserwebSession = [BrowserWebSession: userSessionKey = 35cc9f54-1aed-4a79-9f6e-8a0a25d93029, browserSession = c32cd834-1335-40fa-ae05-533025a46489, status = RUNNING, clientInfo = [WebClientInformation: clientAddress = 172.20.80.1, mobileAppProperties = null]]]
+02-29-2024 15:40:27 [qtp1962914643-34] DEBUG mil.arl.gift.tools.dashboard.server.UserWebSession - addBrowserSession(): User(35cc9f54-1aed-4a79-9f6e-8a0a25d93029), Browser (c32cd834-1335-40fa-ae05-533025a46489)
+02-29-2024 15:40:27 [qtp1962914643-34] DEBUG mil.arl.gift.tools.dashboard.server.UserWebSession - addBrowserSession(): browsersession size=1
+02-29-2024 15:40:27 [qtp1962914643-35] INFO  mil.arl.gift.tools.dashboard.server.DashboardWebSocketServlet - init() called
+02-29-2024 15:40:27 [qtp1962914643-35] DEBUG mil.arl.gift.tools.dashboard.server.DashboardServerWebSocket - DashboardServerWebSocket()
+02-29-2024 15:40:33 [qtp1962914643-34] DEBUG mil.arl.gift.tools.dashboard.server.DashboardServiceImpl - applying LMS history for jvaida to 28 courses.
+02-29-2024 15:40:34 [qtp1962914643-34] DEBUG mil.arl.gift.tools.dashboard.server.DashboardServiceImpl - getCourseList - success for user: c32cd834-1335-40fa-ae05-533025a46489. Found 28 courses total.
+02-29-2024 15:40:34 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:40:35 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:40:38 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:40:38 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:40:44 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:40:45 [qtp1962914643-34] DEBUG mil.arl.gift.tools.dashboard.server.DashboardServiceImpl - start load course called for user: jvaida, course id: Public/Simple Example Training App Course/exampleCourse.course.xml
+02-29-2024 15:40:45 [qtp1962914643-34] DEBUG mil.arl.gift.tools.dashboard.server.DashboardServiceImpl - loadCourse - loadCourse returned success with runtime course id: jvaida\2024-02-29_15-40-45\Simple Example Training App Course\exampleCourse.course.xml
+02-29-2024 15:40:45 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:40:49 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:40:49 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:40:50 [Monitor_Topic_Message_Listener] INFO  mil.arl.gift.tools.dashboard.server.WebMonitorModule - Adding new user [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null] to current mapping of user session ids of [] to tutor module identifier of Tutor_Queue_172.20.80.1_Inbox
+02-29-2024 15:40:55 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:40:55 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:40:56 [Monitor_Topic_Message_Listener] INFO  mil.arl.gift.tools.dashboard.server.webmonitor.message.PanelManager - Adding active domain session with id = 4 with a new message list model.
+02-29-2024 15:40:56 [Monitor_Topic_Message_Listener] INFO  mil.arl.gift.tools.dashboard.server.WebMonitorModule - Adding new domain session id of 4 to current mapping of domain session ids of 4 to domain module identifier of Domain_Queue_172.20.80.1_Inbox
+02-29-2024 15:41:03 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:41:03 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:41:05 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:41:05 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:41:14 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:41:14 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:41:15 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:41:15 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:41:25 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:41:25 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:41:28 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:41:29 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:41:35 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:41:35 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:41:39 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:41:40 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:41:40 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.KnowledgeSessionMessageManager - Dropping cached domain session data
+02-29-2024 15:41:40 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.gamemaster.DomainInformationCache - dropDomainSessionData([DomainSessionKey: domainSessionId = 4, experimentId = null, userId = 1, username = jvaida, playbackId = null])
+02-29-2024 15:41:40 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.KnowledgeSessionMessageManager - Dropping cached domain session data
+02-29-2024 15:41:40 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.gamemaster.DomainInformationCache - dropDomainSessionData([DomainSessionKey: domainSessionId = 4, experimentId = null, userId = 1, username = jvaida, playbackId = null])
+02-29-2024 15:41:40 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.KnowledgeSessionMessageManager - Dropping cached domain session data
+02-29-2024 15:41:40 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.gamemaster.DomainInformationCache - dropDomainSessionData([DomainSessionKey: domainSessionId = 4, experimentId = null, userId = 1, username = jvaida, playbackId = null])
+02-29-2024 15:41:40 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.KnowledgeSessionMessageManager - Dropping cached domain session data
+02-29-2024 15:41:40 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.gamemaster.DomainInformationCache - dropDomainSessionData([DomainSessionKey: domainSessionId = 4, experimentId = null, userId = 1, username = jvaida, playbackId = null])
+02-29-2024 15:41:40 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.KnowledgeSessionMessageManager - Dropping cached domain session data
+02-29-2024 15:41:40 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.gamemaster.DomainInformationCache - dropDomainSessionData([DomainSessionKey: domainSessionId = 4, experimentId = null, userId = 1, username = jvaida, playbackId = null])
+02-29-2024 15:41:45 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:41:45 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:41:49 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.KnowledgeSessionMessageManager - Dropping cached domain session data
+02-29-2024 15:41:49 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.gamemaster.DomainInformationCache - dropDomainSessionData([DomainSessionKey: domainSessionId = 4, experimentId = null, userId = 1, username = jvaida, playbackId = null])
+02-29-2024 15:41:49 [Monitor_Topic_Message_Listener] INFO  mil.arl.gift.tools.dashboard.server.WebMonitorModule - Removing domain session id of 4 from being mapped to domain module named Domain_Module
+02-29-2024 15:41:49 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.KnowledgeSessionMessageManager - Dropping cached domain session data
+02-29-2024 15:41:49 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.gamemaster.DomainInformationCache - dropDomainSessionData([DomainSessionKey: domainSessionId = 4, experimentId = null, userId = 1, username = jvaida, playbackId = null])
+02-29-2024 15:41:49 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitorModule - domainSessionsPendingRemoval already contains the domain session to be removed, NOT scheduling a removal timer.
+02-29-2024 15:41:50 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.KnowledgeSessionMessageManager - Dropping cached domain session data
+02-29-2024 15:41:50 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.gamemaster.DomainInformationCache - dropDomainSessionData([DomainSessionKey: domainSessionId = 4, experimentId = null, userId = 1, username = jvaida, playbackId = null])
+02-29-2024 15:41:50 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitorModule - domainSessionsPendingRemoval already contains the domain session to be removed, NOT scheduling a removal timer.
+02-29-2024 15:41:50 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.KnowledgeSessionMessageManager - Dropping cached domain session data
+02-29-2024 15:41:50 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.gamemaster.DomainInformationCache - dropDomainSessionData([DomainSessionKey: domainSessionId = 4, experimentId = null, userId = 1, username = jvaida, playbackId = null])
+02-29-2024 15:41:50 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitorModule - domainSessionsPendingRemoval already contains the domain session to be removed, NOT scheduling a removal timer.
+02-29-2024 15:41:50 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.KnowledgeSessionMessageManager - Dropping cached domain session data
+02-29-2024 15:41:50 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.gamemaster.DomainInformationCache - dropDomainSessionData([DomainSessionKey: domainSessionId = 4, experimentId = null, userId = 1, username = jvaida, playbackId = null])
+02-29-2024 15:41:50 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitorModule - domainSessionsPendingRemoval already contains the domain session to be removed, NOT scheduling a removal timer.
+02-29-2024 15:41:50 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.KnowledgeSessionMessageManager - Dropping cached domain session data
+02-29-2024 15:41:50 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.gamemaster.DomainInformationCache - dropDomainSessionData([DomainSessionKey: domainSessionId = 4, experimentId = null, userId = 1, username = jvaida, playbackId = null])
+02-29-2024 15:41:50 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitorModule - domainSessionsPendingRemoval already contains the domain session to be removed, NOT scheduling a removal timer.
+02-29-2024 15:41:50 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.KnowledgeSessionMessageManager - Dropping cached domain session data
+02-29-2024 15:41:50 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.gamemaster.DomainInformationCache - dropDomainSessionData([DomainSessionKey: domainSessionId = 4, experimentId = null, userId = 1, username = jvaida, playbackId = null])
+02-29-2024 15:41:50 [Monitor_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitorModule - domainSessionsPendingRemoval already contains the domain session to be removed, NOT scheduling a removal timer.
+02-29-2024 15:41:50 [qtp1962914643-35] DEBUG mil.arl.gift.tools.dashboard.server.DashboardServiceImpl - endCourse - called with browserSessionId: c32cd834-1335-40fa-ae05-533025a46489, domainId =jvaida\2024-02-29_15-40-45\Simple Example Training App Course\exampleCourse.course.xml
+02-29-2024 15:41:50 [qtp1962914643-31] DEBUG mil.arl.gift.tools.dashboard.server.DashboardServiceImpl - endCourse - called with browserSessionId: c32cd834-1335-40fa-ae05-533025a46489, domainId =jvaida\2024-02-29_15-40-45\Simple Example Training App Course\exampleCourse.course.xml
+02-29-2024 15:41:50 [qtp1962914643-35] DEBUG mil.arl.gift.tools.dashboard.server.DashboardServiceImpl - endCourse - success for user: jvaida, course: jvaida\2024-02-29_15-40-45\Simple Example Training App Course\exampleCourse.course.xml
+02-29-2024 15:41:54 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:41:54 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:41:54 [Delayed Domain Session Remove] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitorModule - Removing domain session: 4
+02-29-2024 15:41:55 [qtp1962914643-35] DEBUG mil.arl.gift.tools.dashboard.server.DashboardServiceImpl - applying LMS history for jvaida to 28 courses.
+02-29-2024 15:41:55 [qtp1962914643-35] DEBUG mil.arl.gift.tools.dashboard.server.DashboardServiceImpl - getCourseList - success for user: c32cd834-1335-40fa-ae05-533025a46489. Found 28 courses total.
+02-29-2024 15:41:55 [Delayed User Session Remove] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitorModule - Removing user session: [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null]
+02-29-2024 15:41:55 [Delayed User Session Remove] INFO  mil.arl.gift.tools.dashboard.server.WebMonitorModule - Removing user session id of 1 from being mapped to tutor module named Tutor_Module
+02-29-2024 15:41:55 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:41:57 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:42:05 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:42:05 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:42:06 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:42:07 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:42:16 [qtp1962914643-31] DEBUG mil.arl.gift.tools.dashboard.server.DashboardServiceImpl - applying LMS history for jvaida to 28 courses.
+02-29-2024 15:42:16 [qtp1962914643-31] DEBUG mil.arl.gift.tools.dashboard.server.DashboardServiceImpl - getCourseList - success for user: c32cd834-1335-40fa-ae05-533025a46489. Found 28 courses total.
+02-29-2024 15:42:17 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:42:17 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:42:19 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:42:19 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:42:27 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:42:27 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:42:30 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:42:30 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:42:37 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:42:37 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:42:44 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:42:45 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:42:47 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:42:47 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:42:55 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:42:56 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:42:57 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:42:57 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:43:07 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:43:07 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:43:10 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:43:10 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:43:17 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:43:17 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:43:21 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:43:21 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:43:27 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:43:27 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:43:35 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:43:35 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:43:37 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:43:38 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:43:46 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:43:46 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:43:47 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:43:48 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:43:58 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:43:58 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:44:00 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:44:00 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:44:08 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:44:08 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:44:11 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:44:12 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:44:18 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:44:18 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:44:25 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:44:26 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:44:28 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:44:28 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:44:37 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:44:37 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:44:38 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:44:38 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:44:48 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:44:48 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:44:51 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:44:51 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:44:58 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:44:58 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:45:02 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:45:02 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:45:08 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:45:09 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:45:16 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:45:16 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:45:18 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:45:19 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:45:27 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:45:27 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:45:29 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:45:29 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:45:39 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:45:39 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:45:41 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:45:42 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:45:49 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:45:49 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:45:52 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:45:53 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:45:59 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:45:59 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:46:07 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:46:07 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:46:09 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:46:09 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:46:18 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:46:18 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:46:19 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:46:19 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:46:29 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:46:29 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:46:32 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:46:32 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:46:39 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:46:40 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:46:43 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:46:43 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:46:49 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:46:50 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:46:57 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:46:57 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:47:00 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:47:00 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:47:08 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:47:08 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:47:10 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:47:10 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:47:20 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:47:20 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:47:22 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:47:23 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:47:30 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:47:30 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:47:34 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:47:34 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:47:40 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:47:40 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:47:48 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:47:48 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:47:50 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:47:50 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:47:59 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:47:59 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:48:00 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:48:00 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:48:10 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:48:10 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:48:13 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:48:13 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:48:20 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:48:21 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:48:24 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:48:24 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:48:30 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:48:31 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:48:38 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:48:38 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:48:41 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:48:41 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:48:49 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:48:50 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:48:51 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:48:51 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:49:01 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:49:01 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:49:03 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:49:04 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:49:11 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:49:11 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:49:15 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:49:15 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:49:21 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:49:21 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:49:29 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:49:29 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:49:31 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:49:31 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:49:40 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:49:40 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:49:41 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:49:41 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:49:51 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:49:52 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:49:54 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:49:54 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:50:01 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:50:02 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:50:05 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:50:05 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:50:12 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:50:12 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:50:19 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:50:20 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:50:22 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:50:22 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:50:30 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:50:31 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:50:32 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:50:32 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:50:42 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:50:42 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:50:45 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:50:45 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:50:52 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:50:52 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:50:56 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:50:56 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:51:02 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:51:02 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:51:10 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:51:10 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:51:12 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:51:12 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:51:21 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:51:21 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:51:22 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:51:23 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:51:32 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:51:33 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:51:35 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:51:35 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:51:43 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:51:43 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:51:46 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:51:46 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:51:53 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:51:53 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:52:00 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:52:01 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:52:03 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:52:03 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:52:11 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:52:12 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:52:13 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:52:13 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:52:23 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:52:23 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:52:26 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:52:26 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:52:33 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:52:33 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:52:37 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:52:37 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:52:43 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:52:43 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:52:51 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:52:51 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:52:53 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:52:54 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:53:02 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:53:02 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:53:03 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:53:04 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:53:14 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:53:14 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:53:16 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:53:16 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:53:24 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:53:24 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:53:27 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:53:27 [UMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (UMS_Module), queue name (UMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:53:34 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:53:34 [LMS_Discovery_Topic_Message_Listener] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - adding module status module name (LMS_Module), queue name (LMS_Queue_172.20.80.1_Inbox), state (Unknown)
+02-29-2024 15:53:41 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:53:44 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:53:44 [qtp1962914643-35] WARN  mil.arl.gift.common.gwt.server.websocket.AbstractServerWebSocket - A websocket connection was closed unexpectedly.
+Reason: Code 1005 - null
+Details: Unable to communicate with the server. The connection was terminated but no status was given. Please check this error's details for more information about why the connection was terminated.
+02-29-2024 15:53:44 [qtp1962914643-35] DEBUG mil.arl.gift.tools.dashboard.server.DashboardBrowserWebSession - Browser session is ending, scheduling cleanup timer.
+02-29-2024 15:53:44 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@58609] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'WebMonitor_Queue:172.20.80.1' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+02-29-2024 15:53:44 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@58619] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'Monitor_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+02-29-2024 15:53:44 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@58618] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'Monitor_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+02-29-2024 15:53:44 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@58617] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'Domain_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+02-29-2024 15:53:44 [Monitor_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+02-29-2024 15:53:44 [Monitor_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client broker session
+02-29-2024 15:53:44 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@58616] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'Tutor_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+02-29-2024 15:53:44 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@58615] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'Gateway_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+02-29-2024 15:53:44 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@58614] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'Pedagogical_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+02-29-2024 15:53:44 [Gateway_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+02-29-2024 15:53:44 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@58613] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'Learner_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+02-29-2024 15:53:44 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@58612] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'Sensor_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+02-29-2024 15:53:44 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@58610] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'UMS_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+02-29-2024 15:53:44 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@58611] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'LMS_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+02-29-2024 15:53:44 [UMS_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+02-29-2024 15:53:44 [Sensor_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+02-29-2024 15:53:44 [Learner_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+02-29-2024 15:53:44 [Monitor_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client broker connection
+02-29-2024 15:53:44 [Gateway_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client broker session
+02-29-2024 15:53:44 [Pedagogical_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+02-29-2024 15:53:44 [Tutor_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+02-29-2024 15:53:44 [Domain_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+02-29-2024 15:53:44 [WebMonitor_Queue:172.20.80.1_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+02-29-2024 15:53:44 [Monitor_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+02-29-2024 15:53:44 [LMS_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+02-29-2024 15:53:44 [UMS_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client broker session
+02-29-2024 15:53:45 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name Monitor_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown] for message type WebMonitorModuleStatus
+02-29-2024 15:53:45 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type WebMonitorModuleStatus with payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name Monitor_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.tools.dashboard.server.WebMonitorModule.sendModuleStatus(WebMonitorModule.java:335) [classes/:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+02-29-2024 15:53:46 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name Monitor_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown] for message type WebMonitorModuleStatus
+02-29-2024 15:53:46 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type WebMonitorModuleStatus with payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name Monitor_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.tools.dashboard.server.WebMonitorModule.sendModuleStatus(WebMonitorModule.java:335) [classes/:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+02-29-2024 15:53:47 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name Monitor_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown] for message type WebMonitorModuleStatus
+02-29-2024 15:53:47 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type WebMonitorModuleStatus with payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name Monitor_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.tools.dashboard.server.WebMonitorModule.sendModuleStatus(WebMonitorModule.java:335) [classes/:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+02-29-2024 15:53:48 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name Monitor_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown] for message type WebMonitorModuleStatus
+02-29-2024 15:53:48 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type WebMonitorModuleStatus with payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name Monitor_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.tools.dashboard.server.WebMonitorModule.sendModuleStatus(WebMonitorModule.java:335) [classes/:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+02-29-2024 15:53:49 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name Monitor_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown] for message type WebMonitorModuleStatus
+02-29-2024 15:53:49 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type WebMonitorModuleStatus with payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name Monitor_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.tools.dashboard.server.WebMonitorModule.sendModuleStatus(WebMonitorModule.java:335) [classes/:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+02-29-2024 15:53:49 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: LMS_Module
+02-29-2024 15:53:49 [Remove Dashboard Browser Session Timer] DEBUG mil.arl.gift.tools.dashboard.server.DashboardBrowserWebSession - Browser session: mil.arl.gift.tools.dashboard.server.DashboardBrowserWebSession$1@6af7baf0 has ended
+02-29-2024 15:53:49 [Remove Dashboard Browser Session Timer] DEBUG mil.arl.gift.tools.dashboard.server.UserSessionManager - removing session: c32cd834-1335-40fa-ae05-533025a46489
+02-29-2024 15:53:49 [Remove Dashboard Browser Session Timer] DEBUG mil.arl.gift.tools.dashboard.server.UserWebSession - removeBrowserSession(): User(35cc9f54-1aed-4a79-9f6e-8a0a25d93029), Browser (c32cd834-1335-40fa-ae05-533025a46489)
+02-29-2024 15:53:49 [Remove Dashboard Browser Session Timer] DEBUG mil.arl.gift.tools.dashboard.server.UserWebSession - removeBrowserSession(): browsersession size=0
+02-29-2024 15:53:49 [Remove Dashboard Browser Session Timer] DEBUG mil.arl.gift.tools.dashboard.server.UserSessionManager - removeUserWebSession(): User(35cc9f54-1aed-4a79-9f6e-8a0a25d93029)
+02-29-2024 15:53:49 [Remove Dashboard Browser Session Timer] DEBUG mil.arl.gift.tools.dashboard.server.UserSessionManager - removeUserWebSession():  user session size=0
+02-29-2024 15:53:50 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name Monitor_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown] for message type WebMonitorModuleStatus
+02-29-2024 15:53:50 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type WebMonitorModuleStatus with payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name Monitor_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.tools.dashboard.server.WebMonitorModule.sendModuleStatus(WebMonitorModule.java:335) [classes/:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+02-29-2024 15:53:51 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name Monitor_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown] for message type WebMonitorModuleStatus
+02-29-2024 15:53:51 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type WebMonitorModuleStatus with payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name Monitor_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.tools.dashboard.server.WebMonitorModule.sendModuleStatus(WebMonitorModule.java:335) [classes/:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+02-29-2024 15:53:52 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name Monitor_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown] for message type WebMonitorModuleStatus
+02-29-2024 15:53:52 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type WebMonitorModuleStatus with payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name Monitor_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.tools.dashboard.server.WebMonitorModule.sendModuleStatus(WebMonitorModule.java:335) [classes/:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+02-29-2024 15:53:52 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: Learner_Module
+02-29-2024 15:53:52 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: Domain_Module
+02-29-2024 15:53:52 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: Sensor_Module
+02-29-2024 15:53:52 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: Tutor_Module
+02-29-2024 15:53:52 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: Pedagogical_Module
+02-29-2024 15:53:53 [ModuleStatusMonitorTimer] DEBUG mil.arl.gift.tools.dashboard.server.WebMonitor - module status removed for module: UMS_Module
+02-29-2024 15:53:53 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name Monitor_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown] for message type WebMonitorModuleStatus
+02-29-2024 15:53:53 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type WebMonitorModuleStatus with payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name Monitor_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.tools.dashboard.server.WebMonitorModule.sendModuleStatus(WebMonitorModule.java:335) [classes/:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+02-29-2024 15:53:54 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name Monitor_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown] for message type WebMonitorModuleStatus
+02-29-2024 15:53:54 [Heartbeat:WebMonitor_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type WebMonitorModuleStatus with payload = [ModuleStatus: moduleName = WebMonitor_Module, queueName = WebMonitor_Queue:172.20.80.1:Inbox, moduleType = Monitor_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name Monitor_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.tools.dashboard.server.WebMonitorModule.sendModuleStatus(WebMonitorModule.java:335) [classes/:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]

@@ -1,0 +1,55 @@
+02-29-2024 14:58:58 [Tutor_Queue_172.20.80.1_Message_Listener] WARN  mil.arl.gift.net.api.NetworkSession - It took 5524 ms to decode the DisplayContentTutorRequest message of:
+[DomainSessionMessage: domainSessionId = 1, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = DisplayContentTutorRequest, source event id = 1539, seq # = 1539, time = 2024:02:29 14:58:49:912 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_172.20.80.1_Inbox, destination address = Tutor_Queue_172.20.80.1_Inbox, payload = [DisplayMediaTutorRequest: display duration = 0 ms, whileTrainingAppLoads = true, title = Please Wait..., message = null, url = http://172.20.80.1:8885/resources/contentLoadingPage/loadingGuidance.html], needs response = false]]]
+02-29-2024 15:13:15 [Tutor_Queue_172.20.80.1_Message_Listener] WARN  mil.arl.gift.net.api.NetworkSession - It took 1206 ms to decode the DisplayLearnerActionsTutorRequest message of:
+[DomainSessionMessage: domainSessionId = 2, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = DisplayLearnerActionsTutorRequest, source event id = 3319, seq # = 3356, time = 2024:02:29 15:13:13:483 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_172.20.80.1_Inbox, destination address = Tutor_Queue_172.20.80.1_Inbox, payload = [DisplayLearnerActionsTutorRequest: actions = {}, controls = {null}], needs response = true]]]
+02-29-2024 15:18:02 [Tutor_Queue_172.20.80.1_Message_Listener] WARN  mil.arl.gift.net.api.NetworkSession - It took 8168 ms to decode the KnowledgeSessionUpdatedRequest message of:
+[DomainSessionMessage: domainSessionId = 2, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = KnowledgeSessionUpdatedRequest, source event id = 3889, seq # = 3937, time = 2024:02:29 15:17:53:451 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_172.20.80.1_Inbox, destination address = Tutor_Queue_172.20.80.1_Inbox, payload = [KnowledgeSessionsReply: canHost = true, knowledgeSessionMap = {}], needs response = false]]]
+02-29-2024 15:19:58 [qtp782075312-340] WARN  mil.arl.gift.tutor.server.TutorUserInterfaceServiceImpl - checkStartCourseStatus - userStartDomainSession returned success=false.  Response is: [RpcResponse: userSessionId=c87e2d08-8ddb-4ca7-9556-71287d2239da, browserSessionId=71c23dc9-01c4-435e-92d8-49a074ea2577, success=false, response=the domain session has ended because Failed to start the course named 'jvaida\2024-02-29_15-19-32\Simple Example Training App Course\exampleCourse.course.xml'., additionalInformation=An exception occurred that reads:
+This course requires a Gateway module to interact with and possibly control an external application but an available gateway module was not found connected to this GIFT instance.
+Cause:
+(unable to get cause)]
+02-29-2024 15:34:59 [Kill Module] ERROR mil.arl.gift.net.api.MessageClient - Failed to destroy the destination of 'Tutor_Queue_172.20.80.1'.
+mil.arl.gift.common.io.DetailedException: Failed to invoke the 'removeQueue' operation on 'Tutor_Queue_172.20.80.1' through JMX connection.  Does that destination exist? Check the ActiveMQ Console (e.g. http://localhost:8161/admin/index.jsp). The error reads:
+org.apache.activemq:BrokerName=localhost,Type=Broker
+	at mil.arl.gift.net.api.MessageClient.attemptDestroy(MessageClient.java:446) ~[gift-common.jar:?]
+	at mil.arl.gift.net.api.MessageClient.attemptDestroy(MessageClient.java:497) ~[gift-common.jar:?]
+	at mil.arl.gift.net.api.MessageClient.terminateConnection(MessageClient.java:1010) [gift-common.jar:?]
+	at mil.arl.gift.net.api.MessageClient.disconnect(MessageClient.java:876) [gift-common.jar:?]
+	at mil.arl.gift.net.api.NetworkSession.cleanup(NetworkSession.java:3199) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.cleanup(AbstractModule.java:1124) [gift-common.jar:?]
+	at mil.arl.gift.tutor.server.TutorModule.cleanup(TutorModule.java:1392) [classes/:?]
+	at mil.arl.gift.common.module.AbstractModule.killModule(AbstractModule.java:1087) [gift-common.jar:?]
+	at mil.arl.gift.tutor.server.TutorModule$3.run(TutorModule.java:569) [classes/:?]
+Caused by: javax.management.InstanceNotFoundException: org.apache.activemq:BrokerName=localhost,Type=Broker
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1083) ~[?:?]
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getClassLoaderFor(DefaultMBeanServerInterceptor.java:1421) ~[?:?]
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.getClassLoaderFor(JmxMBeanServer.java:1322) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl$6.run(RMIConnectionImpl.java:1363) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl.getClassLoaderFor(RMIConnectionImpl.java:1360) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:811) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359) ~[?:?]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) ~[?:?]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[?:?]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:562) ~[?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:796) ~[?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:677) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:676) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[?:?]
+	at java.lang.Thread.run(Thread.java:834) ~[?:?]
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:283) ~[?:?]
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:260) ~[?:?]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161) ~[?:?]
+	at jdk.jmx.remote.internal.rmi.PRef.invoke(Unknown Source) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl_Stub.invoke(Unknown Source) ~[?:?]
+	at javax.management.remote.rmi.RMIConnector$RemoteMBeanServerConnection.invoke(RMIConnector.java:1021) ~[?:?]
+	at mil.arl.gift.net.api.MessageClient.attemptDestroy(MessageClient.java:423) ~[gift-common.jar:?]
+	... 8 more

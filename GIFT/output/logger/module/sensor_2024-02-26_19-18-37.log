@@ -1,0 +1,1 @@
+02-26-2024 19:18:37 [Sensor Single Process Thread] WARN  mil.arl.gift.sensor.SensorModule - There is no sensor configuration file property value, therefore the sensor module will not be configured with any sensors.  To change this configuration, update the SensorConfigurationFile property in sensor\sensor.properties to point to the appropriate sensor configuration XML file.

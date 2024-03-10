@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+    <technical>
+        <location>2021-03-07 18-31-34.mp4</location>
+    </technical>
+    <general>
+        <identifier>
+            <catalog>start_time</catalog>
+            <entry>1615250170132</entry>
+        </identifier>
+        <identifier>
+            <catalog>offset</catalog>
+            <entry>4</entry>
+        </identifier>
+        <identifier>
+            <catalog>title</catalog>
+            <entry>first room</entry>
+        </identifier>
+    </general>
+</lom>

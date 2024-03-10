@@ -1,0 +1,418 @@
+03-08-2024 19:48:36 [Logger_Queue_Message_Listener] ERROR mil.arl.gift.ums.logger.MessageLogManager - Unable to create a new subject entry in the database for the course at 'Public/Simple Example Training App Course' because that course was not found in the table with all the courses.  Was this course manually copied into a workspace folder?  If so, try saving the course in the course creator first.
+03-09-2024 23:05:11 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@51072] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'Learner_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+03-09-2024 23:05:12 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@51121] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'Logger_Queue' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+03-09-2024 23:05:12 [Learner_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+03-09-2024 23:05:12 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@51079] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'Domain_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+03-09-2024 23:05:11 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@51075] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'Tutor_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+03-09-2024 23:05:11 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@51074] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'Gateway_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+03-09-2024 23:05:11 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@51068] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'UMS_Queue_192.168.56.1' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+03-09-2024 23:05:11 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@51122] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'UMS_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+03-09-2024 23:05:11 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@51071] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'Sensor_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+03-09-2024 23:05:11 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@51073] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'Pedagogical_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+03-09-2024 23:05:11 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@51070] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'LMS_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+03-09-2024 23:05:12 [Pedagogical_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+03-09-2024 23:05:12 [Sensor_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+03-09-2024 23:05:12 [UMS_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+03-09-2024 23:05:12 [UMS_Queue_192.168.56.1_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+03-09-2024 23:05:12 [Logger_Queue_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+03-09-2024 23:05:12 [Gateway_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+03-09-2024 23:05:12 [Domain_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+03-09-2024 23:05:12 [Tutor_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+03-09-2024 23:05:12 [Learner_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client broker session
+03-09-2024 23:05:12 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@51316] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'Domain_Queue_192.168.56.1_Inbox' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+03-09-2024 23:05:12 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@51308] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'LMS_Queue_192.168.56.1_Inbox' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+03-09-2024 23:05:12 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@51298] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'Tutor_Queue_192.168.56.1_Inbox' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+03-09-2024 23:05:12 [LMS_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+03-09-2024 23:05:12 [Sensor_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client broker session
+03-09-2024 23:05:12 [Pedagogical_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client broker session
+03-09-2024 23:05:12 [Tutor_Queue_192.168.56.1_Inbox_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+03-09-2024 23:05:12 [LMS_Queue_192.168.56.1_Inbox_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+03-09-2024 23:05:12 [Domain_Queue_192.168.56.1_Inbox_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+03-09-2024 23:05:12 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name UMS_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown] for message type ModuleStatus
+03-09-2024 23:05:12 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type ModuleStatus with payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name UMS_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.ums.UMSModule.sendModuleStatus(UMSModule.java:1475) [gift-ums.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+03-09-2024 23:05:13 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name UMS_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown] for message type ModuleStatus
+03-09-2024 23:05:13 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type ModuleStatus with payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name UMS_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.ums.UMSModule.sendModuleStatus(UMSModule.java:1475) [gift-ums.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+03-09-2024 23:05:14 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name UMS_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown] for message type ModuleStatus
+03-09-2024 23:05:14 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type ModuleStatus with payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name UMS_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.ums.UMSModule.sendModuleStatus(UMSModule.java:1475) [gift-ums.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+03-09-2024 23:05:15 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name UMS_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown] for message type ModuleStatus
+03-09-2024 23:05:15 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type ModuleStatus with payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name UMS_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.ums.UMSModule.sendModuleStatus(UMSModule.java:1475) [gift-ums.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+03-09-2024 23:05:16 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name UMS_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown] for message type ModuleStatus
+03-09-2024 23:05:17 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type ModuleStatus with payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name UMS_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.ums.UMSModule.sendModuleStatus(UMSModule.java:1475) [gift-ums.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+03-09-2024 23:05:18 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name UMS_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown] for message type ModuleStatus
+03-09-2024 23:05:18 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type ModuleStatus with payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name UMS_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.ums.UMSModule.sendModuleStatus(UMSModule.java:1475) [gift-ums.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+03-09-2024 23:05:19 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name UMS_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown] for message type ModuleStatus
+03-09-2024 23:05:19 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type ModuleStatus with payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name UMS_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.ums.UMSModule.sendModuleStatus(UMSModule.java:1475) [gift-ums.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+03-09-2024 23:05:20 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name UMS_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown] for message type ModuleStatus
+03-09-2024 23:05:20 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type ModuleStatus with payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name UMS_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.ums.UMSModule.sendModuleStatus(UMSModule.java:1475) [gift-ums.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+03-09-2024 23:05:21 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name UMS_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown] for message type ModuleStatus
+03-09-2024 23:05:21 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type ModuleStatus with payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name UMS_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.ums.UMSModule.sendModuleStatus(UMSModule.java:1475) [gift-ums.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+03-09-2024 23:05:22 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name UMS_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown] for message type ModuleStatus
+03-09-2024 23:05:22 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type ModuleStatus with payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name UMS_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.ums.UMSModule.sendModuleStatus(UMSModule.java:1475) [gift-ums.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+03-09-2024 23:05:23 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name UMS_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown] for message type ModuleStatus
+03-09-2024 23:05:23 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type ModuleStatus with payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name UMS_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.ums.UMSModule.sendModuleStatus(UMSModule.java:1475) [gift-ums.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+03-09-2024 23:05:24 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name UMS_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown] for message type ModuleStatus
+03-09-2024 23:05:24 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type ModuleStatus with payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name UMS_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.ums.UMSModule.sendModuleStatus(UMSModule.java:1475) [gift-ums.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+03-09-2024 23:05:25 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name UMS_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown] for message type ModuleStatus
+03-09-2024 23:05:25 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type ModuleStatus with payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name UMS_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.ums.UMSModule.sendModuleStatus(UMSModule.java:1475) [gift-ums.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+03-09-2024 23:05:26 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name UMS_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown] for message type ModuleStatus
+03-09-2024 23:05:26 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type ModuleStatus with payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name UMS_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.ums.UMSModule.sendModuleStatus(UMSModule.java:1475) [gift-ums.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+03-09-2024 23:05:27 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name UMS_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown] for message type ModuleStatus
+03-09-2024 23:05:27 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type ModuleStatus with payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name UMS_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.ums.UMSModule.sendModuleStatus(UMSModule.java:1475) [gift-ums.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]
+03-09-2024 23:05:28 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Unable to find a message client for subject name UMS_Discovery_Topic, therefore unable to send the payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown] for message type ModuleStatus
+03-09-2024 23:05:28 [Heartbeat:UMS_Module] ERROR mil.arl.gift.net.api.NetworkSession - Caught exception while trying to send message type ModuleStatus with payload = [ModuleStatus: moduleName = UMS_Module, queueName = UMS_Queue_192.168.56.1_Inbox, moduleType = UMS_Module, moduleState = Unknown].
+java.lang.Exception: Unable to find a message client for subject name UMS_Discovery_Topic
+	at mil.arl.gift.net.api.NetworkSession.sendMessage(NetworkSession.java:2874) [gift-common.jar:?]
+	at mil.arl.gift.common.module.AbstractModule.sendMessage(AbstractModule.java:769) [gift-common.jar:?]
+	at mil.arl.gift.ums.UMSModule.sendModuleStatus(UMSModule.java:1475) [gift-ums.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon.handleHeartbeat(ModuleHeartbeatDaemon.java:127) [gift-common.jar:?]
+	at mil.arl.gift.common.module.ModuleHeartbeatDaemon$HeartbeatThread.run(ModuleHeartbeatDaemon.java:118) [gift-common.jar:?]

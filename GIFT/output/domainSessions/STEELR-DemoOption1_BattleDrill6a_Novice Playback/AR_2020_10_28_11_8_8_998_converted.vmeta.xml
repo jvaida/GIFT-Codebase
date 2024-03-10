@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+    <technical>
+        <location>AR_2020_10_28_11_8_8_998_converted.mp4</location>
+    </technical>
+    <general>
+        <identifier>
+            <catalog>start_time</catalog>
+            <entry>1615250156477</entry>
+        </identifier>
+        <identifier>
+            <catalog>offset</catalog>
+            <entry>0</entry>
+        </identifier>
+        <identifier>
+            <catalog>title</catalog>
+            <entry>Alpha Auto Rifleman</entry>
+        </identifier>
+    </general>
+</lom>

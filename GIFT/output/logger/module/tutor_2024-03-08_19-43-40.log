@@ -1,0 +1,606 @@
+03-08-2024 19:43:40 [Tutor Single Process Thread] INFO  mil.arl.gift.tutor.server.TutorTestServiceImpl - Initialized.
+03-08-2024 19:43:40 [Tutor Single Process Thread] INFO  mil.arl.gift.tutor.server.TutorUserInterfaceServiceImpl - Creating TutorModule class instance.
+03-08-2024 19:43:41 [Tutor Single Process Thread] INFO  mil.arl.gift.tutor.server.TutorModule - isSPL property value = true
+03-08-2024 19:43:41 [Tutor Single Process Thread] INFO  mil.arl.gift.tutor.server.TutorModule - Tutor module has been initialized and is sending heartbeats.
+03-08-2024 19:43:41 [Tutor Single Process Thread] DEBUG mil.arl.gift.tutor.server.TutorUserInterfaceServiceImpl - Tutor module virtual human character server check: online result = false, returning = false
+03-08-2024 19:43:41 [Tutor Single Process Thread] DEBUG mil.arl.gift.tutor.server.TutorUserInterfaceServiceImpl - Character server online = true
+03-08-2024 19:48:24 [qtp1301540158-678] INFO  mil.arl.gift.tutor.server.websocket.TutorWebSocketServlet - constructor called.
+03-08-2024 19:48:24 [qtp1301540158-678] INFO  mil.arl.gift.tutor.server.websocket.TutorWebSocketServlet - init() called
+03-08-2024 19:48:24 [qtp1301540158-678] INFO  mil.arl.gift.tutor.server.websocket.TutorServerWebSocket - TutorServerWebSocket()
+03-08-2024 19:48:24 [qtp1301540158-678] INFO  mil.arl.gift.tutor.server.websocket.TutorWebSocketServlet - Web socket created for client with socket ID of 444527a9-3488-496a-820c-c2cc8b4dc972
+03-08-2024 19:48:25 [Msg 562 success callback] INFO  mil.arl.gift.tutor.server.TutorModule - Sending get user id request message for username of jvaida
+03-08-2024 19:48:27 [qtp1301540158-678] DEBUG mil.arl.gift.tutor.server.TutorUserInterfaceServiceImpl - Attempting to login a user (ONLINE MODE authentication) with username jvaida.  [client = [TutorClient webSocketId='444527a9-3488-496a-820c-c2cc8b4dc972', mobileAppProperties='null']]
+03-08-2024 19:48:31 [Msg 578 success callback] INFO  mil.arl.gift.tutor.server.TutorModule - Sending get user id request message for username of jvaida
+03-08-2024 19:48:31 [Msg 580 success callback] INFO  mil.arl.gift.tutor.server.TutorUserInterfaceServiceImpl - No user session for user ID jvaida, attempting to login
+03-08-2024 19:48:32 [Msg 586 success callback] INFO  mil.arl.gift.tutor.server.TutorModule - Sending login message for user [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null].
+03-08-2024 19:48:32 [Msg 590 success callback] INFO  mil.arl.gift.tutor.server.UserWebSession - Login was successful for user [UserData: userId = 1, experimentId = null, username = jvaida, gender = MALE, LMS-username = jvaida]
+03-08-2024 19:48:32 [Msg 590 success callback] INFO  mil.arl.gift.tutor.server.TutorModule - Creating user session for user: [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null]
+03-08-2024 19:48:32 [Msg 590 success callback] DEBUG mil.arl.gift.tutor.server.TutorBrowserWebSession - onSocketOpened()
+03-08-2024 19:48:32 [Msg 590 success callback] DEBUG mil.arl.gift.tutor.server.UserWebSession - cleanupEndSessionTimer()
+03-08-2024 19:48:32 [qtp1301540158-333] INFO  mil.arl.gift.tutor.server.CourseLaunchManager - User selected jvaida\2024-03-08_19-48-16\Simple Example Training App Course\exampleCourse.course.xml as the course for [UserSession: ID: 1, domainWebState = null, LMS Username = jvaida]
+03-08-2024 19:48:32 [qtp1301540158-333] DEBUG mil.arl.gift.tutor.server.UserWebSession - userSelectDomain called: jvaida\2024-03-08_19-48-16\Simple Example Training App Course\exampleCourse.course.xml [TutorBrowserWebSession: userSessionKey = d6a9d7d2-c546-4152-87ef-7ac69eb7121e, browserSession = 321c6426-12d8-4feb-9dc5-a39f41ad8332, status = RUNNING, clientInfo = [WebClientInformation: clientAddress = 192.168.0.100, mobileAppProperties = null], isExperimentSession = false], runtimeParams=null
+03-08-2024 19:48:40 [Tutor_Queue_192.168.56.1_Message_Listener] WARN  mil.arl.gift.net.api.NetworkSession - It took 1518 ms to decode the DisplayContentTutorRequest message of:
+[DomainSessionMessage: domainSessionId = 7, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = DisplayContentTutorRequest, source event id = 627, seq # = 627, time = 2024:03:08 19:48:38:093 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_192.168.56.1_Inbox, destination address = Tutor_Queue_192.168.56.1_Inbox, payload = [DisplayMediaTutorRequest: display duration = 0 ms, whileTrainingAppLoads = true, title = Please Wait..., message = null, url = http://192.168.56.1:8885/resources/contentLoadingPage/loadingGuidance.html], needs response = false]]]
+03-08-2024 19:48:40 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.TutorModule - Tutor_Module received [DomainSessionMessage: domainSessionId = 7, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = DisplayContentTutorRequest, source event id = 627, seq # = 627, time = 2024:03:08 19:48:38:093 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_192.168.56.1_Inbox, destination address = Tutor_Queue_192.168.56.1_Inbox, payload = [DisplayMediaTutorRequest: display duration = 0 ms, whileTrainingAppLoads = true, title = Please Wait..., message = null, url = http://192.168.56.1:8885/resources/contentLoadingPage/loadingGuidance.html], needs response = false]]]
+03-08-2024 19:48:40 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.TutorModule - Creating new domain web session for userId = 1, domainSessionId = 7.
+03-08-2024 19:48:40 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.UserWebSession - handleServerAction() called with action: [DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = d382179a-9174-428a-af4e-e2d269a32487, Type = MEDIA_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+MEDIA_PARAMETERS : [DisplayMediaTutorRequest: display duration = 0 ms, whileTrainingAppLoads = true, title = Please Wait..., message = null, url = http://192.168.56.1:8885/resources/contentLoadingPage/loadingGuidance.html]
+HAS_CONTINUE_BUTTON_PROPERTY : false
+IS_FULLSCREEN : true
+DISPLAY_DURATION_PROPERTY : 0
+}]], ARTICLE]
+03-08-2024 19:48:40 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.DomainWebState - processAction() called with action: [DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = d382179a-9174-428a-af4e-e2d269a32487, Type = MEDIA_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+MEDIA_PARAMETERS : [DisplayMediaTutorRequest: display duration = 0 ms, whileTrainingAppLoads = true, title = Please Wait..., message = null, url = http://192.168.56.1:8885/resources/contentLoadingPage/loadingGuidance.html]
+HAS_CONTINUE_BUTTON_PROPERTY : false
+IS_FULLSCREEN : true
+DISPLAY_DURATION_PROPERTY : 0
+}]], ARTICLE]
+03-08-2024 19:48:40 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.DomainWebState - Displaying page of 
+[DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = d382179a-9174-428a-af4e-e2d269a32487, Type = MEDIA_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+MEDIA_PARAMETERS : [DisplayMediaTutorRequest: display duration = 0 ms, whileTrainingAppLoads = true, title = Please Wait..., message = null, url = http://192.168.56.1:8885/resources/contentLoadingPage/loadingGuidance.html]
+HAS_CONTINUE_BUTTON_PROPERTY : false
+IS_FULLSCREEN : true
+DISPLAY_DURATION_PROPERTY : 0
+}]], ARTICLE]
+ for [DomainSessionWebSession: id = 7, experimentId = null, runtimeId = jvaida\2024-03-08_19-48-16\Simple Example Training App Course\exampleCourse.course.xml, sourceId = Public/Simple Example Training App Course/exampleCourse.course.xml, user = [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null], lessonStatus = INACTIVE]
+03-08-2024 19:48:41 [qtp1301540158-335] DEBUG mil.arl.gift.tutor.server.TutorUserInterfaceServiceImpl - getExistingDomainWebState for: 321c6426-12d8-4feb-9dc5-a39f41ad8332
+03-08-2024 19:48:41 [qtp1301540158-335] DEBUG mil.arl.gift.tutor.server.TutorUserInterfaceServiceImpl - checkStartCourseStatus - found the domain session, signaling that course is ready to be started.
+03-08-2024 19:48:41 [qtp1301540158-335] DEBUG mil.arl.gift.tutor.server.UserWebSession - handleServerAction() called with action: [StartDomainSessionAction: actionType = [ActionTypeEnum: value = START_COURSE], message = ]
+03-08-2024 19:48:41 [qtp1301540158-335] DEBUG mil.arl.gift.tutor.server.DomainWebState - processAction() called with action: [StartDomainSessionAction: actionType = [ActionTypeEnum: value = START_COURSE], message = ]
+03-08-2024 19:48:42 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.TutorModule - Tutor_Module received [DomainSessionMessage: domainSessionId = 7, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = InitializeDomainSessionRequest, source event id = 647, seq # = 652, time = 2024:03:08 19:48:42:522 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_192.168.56.1_Inbox, destination address = Tutor_Queue_192.168.56.1_Inbox, payload = [InitializeDomainSessionRequest: , Domain Course File = F:\Projects\release_2023-1\Domain\runtime\jvaida\2024-03-08_19-48-16\Simple Example Training App Course\exampleCourse.course.xml, Tutor Topic Name = null, clientInfo = [WebClientInformation: clientAddress = 192.168.0.100, mobileAppProperties = null]], needs response = true]]]
+03-08-2024 19:48:45 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.TutorModule - Tutor_Module received [DomainSessionMessage: domainSessionId = 7, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = StartDomainSession, source event id = 659, seq # = 671, time = 2024:03:08 19:48:45:970 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_192.168.56.1_Inbox, destination address = Tutor_Queue_192.168.56.1_Inbox, payload = null, needs response = true]]]
+03-08-2024 19:48:45 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.TutorModule - handleStartDomainSessionRequestMessage: [DomainSessionMessage: domainSessionId = 7, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = StartDomainSession, source event id = 659, seq # = 671, time = 2024:03:08 19:48:45:970 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_192.168.56.1_Inbox, destination address = Tutor_Queue_192.168.56.1_Inbox, payload = null, needs response = true]]]
+03-08-2024 19:48:45 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.UserWebSession - handleStartDomainSessionRequestMessage: [DomainSessionMessage: domainSessionId = 7, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = StartDomainSession, source event id = 659, seq # = 671, time = 2024:03:08 19:48:45:970 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_192.168.56.1_Inbox, destination address = Tutor_Queue_192.168.56.1_Inbox, payload = null, needs response = true]]]
+03-08-2024 19:48:47 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.TutorModule - Tutor_Module received [DomainSessionMessage: domainSessionId = 7, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = CourseState, source event id = 663, seq # = 678, time = 2024:03:08 19:48:46:922 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_192.168.56.1_Inbox, destination address = Tutor_Queue_192.168.56.1_Inbox, payload = [CourseState: nextTransitionImpl = generated.course.Guidance, nextQuadrant = null, requiredLearnerStateAttributes = null, expandableCourseObjectStateEnum = NONE], needs response = false]]]
+03-08-2024 19:48:47 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.UserWebSession - handleServerAction() called with action: [CloseAction: id = d382179a-9174-428a-af4e-e2d269a32487, actionType = [ActionTypeEnum: value = CLOSE]]]
+03-08-2024 19:48:47 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.DomainWebState - processAction() called with action: [CloseAction: id = d382179a-9174-428a-af4e-e2d269a32487, actionType = [ActionTypeEnum: value = CLOSE]]]
+03-08-2024 19:48:47 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.DomainWebState - Clearing character actions applying close action for client widget.
+03-08-2024 19:48:47 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.DomainWebState - [DomainSessionWebSession: id = 7, experimentId = null, runtimeId = jvaida\2024-03-08_19-48-16\Simple Example Training App Course\exampleCourse.course.xml, sourceId = Public/Simple Example Training App Course/exampleCourse.course.xml, user = [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null], lessonStatus = INACTIVE]: Applying [CloseAction: id = d382179a-9174-428a-af4e-e2d269a32487, actionType = [ActionTypeEnum: value = CLOSE]]]
+03-08-2024 19:48:47 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.UserWebSession - The request from a DisplayGuidanceTutorRequest has been fulfilled, received: [CloseAction: id = d382179a-9174-428a-af4e-e2d269a32487, actionType = [ActionTypeEnum: value = CLOSE]]]
+03-08-2024 19:48:47 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.TutorModule - Tutor_Module received [DomainSessionMessage: domainSessionId = 7, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = DisplayContentTutorRequest, source event id = 665, seq # = 680, time = 2024:03:08 19:48:46:922 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_192.168.56.1_Inbox, destination address = Tutor_Queue_192.168.56.1_Inbox, payload = [DisplayMessageTutorRequest:  title = Intro, message = <p align="left">     Welcome to the Simple Example Training Application GIFT course.&nbsp; </p><p align="left">This course is designed to accompany the <a href="https://gifttutoring.org/projects/gift/wiki/Developer_Guide_LATEST">GIFT Software Developer Guide</a>.&nbsp; The Simple Example Training Application is a Desktop&nbsp;application written in the c# programming language.&nbsp; It&nbsp;as an example of an&nbsp;application that is integrated with the GIFT Gateway module.&nbsp; The source for the application is available in the downloadable version of GIFT (in the Training.Apps folder).<br></p><p align="left" =""="">The next course object will have you interact with the Simple Example Training Application.  <br> </p><p align="left">Each button in the application is used to show case a specific feature in the GIFT assessment logic.&nbsp; This is merely meant to help a GIFT software developer understand the logic behind the core GIFT modules (Gateway, Domain, Learner, Pedagogical).</p><ul><li><div align="left">Pressing "Button 1" will cause a performance assessment, followed by an update in learner state, an instructional strategy request and finally feedback presented to the learner.</div></li><li><div align="left"><p align=" left" =""="">Pressing "Button 2" will cause a performance assessment, followed by an update in learner state.</p></div></li><li><p align="left" =""="">Pressing "Button 3" will cause a performance assessment that indicates the training applications 'scenario' is completed which results in the next course object in the course to be shown.<br></p></li></ul><p align="left"><a href="https://gifttutoring.org/projects/gift/wiki/Developer_Guide_LATEST>GIFT Software Developer Guide</a>.&nbsp; The Simple Example Training Application is a Desktop&nbsp;application written in the c# programming language.&nbsp; It&nbsp;as an example of an&nbsp;application that is integrated with the GIFT Gateway module.&nbsp; The source for the application is available in the downloadable version of GIFT (in the Training.Apps folder).<br></p><p align=" left"="">&nbsp;</a></p>, display duration = 0 ms, whileTrainingAppLoads = false], needs response = true]]]
+03-08-2024 19:48:47 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.UserWebSession - handleServerAction() called with action: [DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = c2a82c58-444f-43b9-ba7e-d3004e4fddf0, Type = MESSAGE_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+MESSAGE_PARAMETERS : [DisplayMessageTutorRequest:  title = Intro, message = <p align="left">     Welcome to the Simple Example Training Application GIFT course.&nbsp; </p><p align="left">This course is designed to accompany the <a href="https://gifttutoring.org/projects/gift/wiki/Developer_Guide_LATEST">GIFT Software Developer Guide</a>.&nbsp; The Simple Example Training Application is a Desktop&nbsp;application written in the c# programming language.&nbsp; It&nbsp;as an example of an&nbsp;application that is integrated with the GIFT Gateway module.&nbsp; The source for the application is available in the downloadable version of GIFT (in the Training.Apps folder).<br></p><p align="left" =""="">The next course object will have you interact with the Simple Example Training Application.  <br> </p><p align="left">Each button in the application is used to show case a specific feature in the GIFT assessment logic.&nbsp; This is merely meant to help a GIFT software developer understand the logic behind the core GIFT modules (Gateway, Domain, Learner, Pedagogical).</p><ul><li><div align="left">Pressing "Button 1" will cause a performance assessment, followed by an update in learner state, an instructional strategy request and finally feedback presented to the learner.</div></li><li><div align="left"><p align=" left" =""="">Pressing "Button 2" will cause a performance assessment, followed by an update in learner state.</p></div></li><li><p align="left" =""="">Pressing "Button 3" will cause a performance assessment that indicates the training applications 'scenario' is completed which results in the next course object in the course to be shown.<br></p></li></ul><p align="left"><a href="https://gifttutoring.org/projects/gift/wiki/Developer_Guide_LATEST>GIFT Software Developer Guide</a>.&nbsp; The Simple Example Training Application is a Desktop&nbsp;application written in the c# programming language.&nbsp; It&nbsp;as an example of an&nbsp;application that is integrated with the GIFT Gateway module.&nbsp; The source for the application is available in the downloadable version of GIFT (in the Training.Apps folder).<br></p><p align=" left"="">&nbsp;</a></p>, display duration = 0 ms, whileTrainingAppLoads = false]
+IS_FULLSCREEN : true
+DISPLAY_DURATION_PROPERTY : 0
+}]], ARTICLE]
+03-08-2024 19:48:47 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.DomainWebState - processAction() called with action: [DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = c2a82c58-444f-43b9-ba7e-d3004e4fddf0, Type = MESSAGE_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+MESSAGE_PARAMETERS : [DisplayMessageTutorRequest:  title = Intro, message = <p align="left">     Welcome to the Simple Example Training Application GIFT course.&nbsp; </p><p align="left">This course is designed to accompany the <a href="https://gifttutoring.org/projects/gift/wiki/Developer_Guide_LATEST">GIFT Software Developer Guide</a>.&nbsp; The Simple Example Training Application is a Desktop&nbsp;application written in the c# programming language.&nbsp; It&nbsp;as an example of an&nbsp;application that is integrated with the GIFT Gateway module.&nbsp; The source for the application is available in the downloadable version of GIFT (in the Training.Apps folder).<br></p><p align="left" =""="">The next course object will have you interact with the Simple Example Training Application.  <br> </p><p align="left">Each button in the application is used to show case a specific feature in the GIFT assessment logic.&nbsp; This is merely meant to help a GIFT software developer understand the logic behind the core GIFT modules (Gateway, Domain, Learner, Pedagogical).</p><ul><li><div align="left">Pressing "Button 1" will cause a performance assessment, followed by an update in learner state, an instructional strategy request and finally feedback presented to the learner.</div></li><li><div align="left"><p align=" left" =""="">Pressing "Button 2" will cause a performance assessment, followed by an update in learner state.</p></div></li><li><p align="left" =""="">Pressing "Button 3" will cause a performance assessment that indicates the training applications 'scenario' is completed which results in the next course object in the course to be shown.<br></p></li></ul><p align="left"><a href="https://gifttutoring.org/projects/gift/wiki/Developer_Guide_LATEST>GIFT Software Developer Guide</a>.&nbsp; The Simple Example Training Application is a Desktop&nbsp;application written in the c# programming language.&nbsp; It&nbsp;as an example of an&nbsp;application that is integrated with the GIFT Gateway module.&nbsp; The source for the application is available in the downloadable version of GIFT (in the Training.Apps folder).<br></p><p align=" left"="">&nbsp;</a></p>, display duration = 0 ms, whileTrainingAppLoads = false]
+IS_FULLSCREEN : true
+DISPLAY_DURATION_PROPERTY : 0
+}]], ARTICLE]
+03-08-2024 19:48:47 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.DomainWebState - Displaying page of 
+[DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = c2a82c58-444f-43b9-ba7e-d3004e4fddf0, Type = MESSAGE_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+MESSAGE_PARAMETERS : [DisplayMessageTutorRequest:  title = Intro, message = <p align="left">     Welcome to the Simple Example Training Application GIFT course.&nbsp; </p><p align="left">This course is designed to accompany the <a href="https://gifttutoring.org/projects/gift/wiki/Developer_Guide_LATEST">GIFT Software Developer Guide</a>.&nbsp; The Simple Example Training Application is a Desktop&nbsp;application written in the c# programming language.&nbsp; It&nbsp;as an example of an&nbsp;application that is integrated with the GIFT Gateway module.&nbsp; The source for the application is available in the downloadable version of GIFT (in the Training.Apps folder).<br></p><p align="left" =""="">The next course object will have you interact with the Simple Example Training Application.  <br> </p><p align="left">Each button in the application is used to show case a specific feature in the GIFT assessment logic.&nbsp; This is merely meant to help a GIFT software developer understand the logic behind the core GIFT modules (Gateway, Domain, Learner, Pedagogical).</p><ul><li><div align="left">Pressing "Button 1" will cause a performance assessment, followed by an update in learner state, an instructional strategy request and finally feedback presented to the learner.</div></li><li><div align="left"><p align=" left" =""="">Pressing "Button 2" will cause a performance assessment, followed by an update in learner state.</p></div></li><li><p align="left" =""="">Pressing "Button 3" will cause a performance assessment that indicates the training applications 'scenario' is completed which results in the next course object in the course to be shown.<br></p></li></ul><p align="left"><a href="https://gifttutoring.org/projects/gift/wiki/Developer_Guide_LATEST>GIFT Software Developer Guide</a>.&nbsp; The Simple Example Training Application is a Desktop&nbsp;application written in the c# programming language.&nbsp; It&nbsp;as an example of an&nbsp;application that is integrated with the GIFT Gateway module.&nbsp; The source for the application is available in the downloadable version of GIFT (in the Training.Apps folder).<br></p><p align=" left"="">&nbsp;</a></p>, display duration = 0 ms, whileTrainingAppLoads = false]
+IS_FULLSCREEN : true
+DISPLAY_DURATION_PROPERTY : 0
+}]], ARTICLE]
+ for [DomainSessionWebSession: id = 7, experimentId = null, runtimeId = jvaida\2024-03-08_19-48-16\Simple Example Training App Course\exampleCourse.course.xml, sourceId = Public/Simple Example Training App Course/exampleCourse.course.xml, user = [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null], lessonStatus = INACTIVE]
+03-08-2024 19:48:47 [qtp1301540158-679] DEBUG mil.arl.gift.tutor.server.TutorBrowserWebSession - handleClientAction() called with action: [AvatarStatusAction: actionType = [ActionTypeEnum: value = AVATAR_BUSY]
+03-08-2024 19:48:47 [qtp1301540158-679] DEBUG mil.arl.gift.tutor.server.UserWebSession - handleClientAction() called with action: [AvatarStatusAction: actionType = [ActionTypeEnum: value = AVATAR_BUSY]
+03-08-2024 19:48:47 [qtp1301540158-679] DEBUG mil.arl.gift.tutor.server.DomainWebState - processAction() called with action: [AvatarStatusAction: actionType = [ActionTypeEnum: value = AVATAR_BUSY]
+03-08-2024 19:48:47 [qtp1301540158-679] INFO  mil.arl.gift.tutor.server.DomainWebState - Setting character to busy while processing the action [AvatarStatusAction: actionType = [ActionTypeEnum: value = AVATAR_BUSY].
+03-08-2024 19:48:49 [qtp1301540158-335] DEBUG mil.arl.gift.tutor.server.TutorBrowserWebSession - handleClientAction() called with action: [CloseAction: id = c2a82c58-444f-43b9-ba7e-d3004e4fddf0, actionType = [ActionTypeEnum: value = CLOSE]]]
+03-08-2024 19:48:49 [qtp1301540158-335] DEBUG mil.arl.gift.tutor.server.UserWebSession - handleClientAction() called with action: [CloseAction: id = c2a82c58-444f-43b9-ba7e-d3004e4fddf0, actionType = [ActionTypeEnum: value = CLOSE]]]
+03-08-2024 19:48:49 [qtp1301540158-335] DEBUG mil.arl.gift.tutor.server.DomainWebState - processAction() called with action: [CloseAction: id = c2a82c58-444f-43b9-ba7e-d3004e4fddf0, actionType = [ActionTypeEnum: value = CLOSE]]]
+03-08-2024 19:48:49 [qtp1301540158-335] INFO  mil.arl.gift.tutor.server.DomainWebState - Clearing character actions applying close action for client widget.
+03-08-2024 19:48:49 [qtp1301540158-335] INFO  mil.arl.gift.tutor.server.DomainWebState - [DomainSessionWebSession: id = 7, experimentId = null, runtimeId = jvaida\2024-03-08_19-48-16\Simple Example Training App Course\exampleCourse.course.xml, sourceId = Public/Simple Example Training App Course/exampleCourse.course.xml, user = [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null], lessonStatus = INACTIVE]: Applying [CloseAction: id = c2a82c58-444f-43b9-ba7e-d3004e4fddf0, actionType = [ActionTypeEnum: value = CLOSE]]]
+03-08-2024 19:48:49 [qtp1301540158-335] INFO  mil.arl.gift.tutor.server.UserWebSession - The request from a DisplayGuidanceTutorRequest has been fulfilled, received: [CloseAction: id = c2a82c58-444f-43b9-ba7e-d3004e4fddf0, actionType = [ActionTypeEnum: value = CLOSE]]]
+03-08-2024 19:48:51 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.TutorModule - Tutor_Module received [DomainSessionMessage: domainSessionId = 7, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = CourseState, source event id = 677, seq # = 694, time = 2024:03:08 19:48:51:607 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_192.168.56.1_Inbox, destination address = Tutor_Queue_192.168.56.1_Inbox, payload = [CourseState: nextTransitionImpl = generated.course.TrainingApplication, nextQuadrant = null, requiredLearnerStateAttributes = null, expandableCourseObjectStateEnum = NONE], needs response = false]]]
+03-08-2024 19:48:53 [Tutor_Queue_192.168.56.1_Message_Listener] WARN  mil.arl.gift.net.api.NetworkSession - It took 1119 ms to decode the DisplayLearnerActionsTutorRequest message of:
+[DomainSessionMessage: domainSessionId = 7, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = DisplayLearnerActionsTutorRequest, source event id = 685, seq # = 702, time = 2024:03:08 19:48:52:485 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_192.168.56.1_Inbox, destination address = Tutor_Queue_192.168.56.1_Inbox, payload = [DisplayLearnerActionsTutorRequest: actions = {}, controls = {null}], needs response = true]]]
+03-08-2024 19:48:53 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.TutorModule - Tutor_Module received [DomainSessionMessage: domainSessionId = 7, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = DisplayLearnerActionsTutorRequest, source event id = 685, seq # = 702, time = 2024:03:08 19:48:52:485 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_192.168.56.1_Inbox, destination address = Tutor_Queue_192.168.56.1_Inbox, payload = [DisplayLearnerActionsTutorRequest: actions = {}, controls = {null}], needs response = true]]]
+03-08-2024 19:48:53 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.UserWebSession - handleServerAction() called with action: [LessonStatusAction: actionType = [ActionTypeEnum: value = LESSON_STATUS], INITIALIZING]
+03-08-2024 19:48:53 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.DomainWebState - processAction() called with action: [LessonStatusAction: actionType = [ActionTypeEnum: value = LESSON_STATUS], INITIALIZING]
+03-08-2024 19:48:53 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.DomainWebState - Clearing character actions because requesting client to display user actions widget.
+03-08-2024 19:48:53 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.UserWebSession - handleServerAction() called with action: [DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = a7e89769-ce97-4d73-93a6-d5f83fc8aa85, Type = USER_ACTION_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+SCENARIO_CONTROLS : [ScenarioControls: enableManualStop = true]
+IS_FULLSCREEN : true
+USER_ACTIONS : []
+}]], ARTICLE]
+03-08-2024 19:48:53 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.DomainWebState - processAction() called with action: [DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = a7e89769-ce97-4d73-93a6-d5f83fc8aa85, Type = USER_ACTION_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+SCENARIO_CONTROLS : [ScenarioControls: enableManualStop = true]
+IS_FULLSCREEN : true
+USER_ACTIONS : []
+}]], ARTICLE]
+03-08-2024 19:48:53 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.DomainWebState - Displaying page of 
+[DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = a7e89769-ce97-4d73-93a6-d5f83fc8aa85, Type = USER_ACTION_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+SCENARIO_CONTROLS : [ScenarioControls: enableManualStop = true]
+IS_FULLSCREEN : true
+USER_ACTIONS : []
+}]], ARTICLE]
+ for [DomainSessionWebSession: id = 7, experimentId = null, runtimeId = jvaida\2024-03-08_19-48-16\Simple Example Training App Course\exampleCourse.course.xml, sourceId = Public/Simple Example Training App Course/exampleCourse.course.xml, user = [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null], lessonStatus = INITIALIZING]
+03-08-2024 19:48:54 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.TutorModule - Tutor_Module received [DomainSessionMessage: domainSessionId = 7, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = DisplayContentTutorRequest, source event id = 687, seq # = 704, time = 2024:03:08 19:48:52:749 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_192.168.56.1_Inbox, destination address = Tutor_Queue_192.168.56.1_Inbox, payload = [DisplayMediaTutorRequest: display duration = 0 ms, whileTrainingAppLoads = true, title = Please Wait..., message = null, url = http://192.168.56.1:8885/resources/contentLoadingPage/loadingGuidance.html], needs response = false]]]
+03-08-2024 19:48:54 [qtp1301540158-326] INFO  mil.arl.gift.tutor.server.TutorUserInterfaceServiceImpl - Set the status of the Feedback widget to active
+03-08-2024 19:48:54 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.UserWebSession - handleServerAction() called with action: [DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = 9d55886c-4883-4d7b-9ab5-32f1cccc93c4, Type = MEDIA_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+MEDIA_PARAMETERS : [DisplayMediaTutorRequest: display duration = 0 ms, whileTrainingAppLoads = true, title = Please Wait..., message = null, url = http://192.168.56.1:8885/resources/contentLoadingPage/loadingGuidance.html]
+HAS_CONTINUE_BUTTON_PROPERTY : false
+IS_FULLSCREEN : true
+DISPLAY_DURATION_PROPERTY : 0
+}]], ARTICLE]
+03-08-2024 19:48:54 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.DomainWebState - processAction() called with action: [DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = 9d55886c-4883-4d7b-9ab5-32f1cccc93c4, Type = MEDIA_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+MEDIA_PARAMETERS : [DisplayMediaTutorRequest: display duration = 0 ms, whileTrainingAppLoads = true, title = Please Wait..., message = null, url = http://192.168.56.1:8885/resources/contentLoadingPage/loadingGuidance.html]
+HAS_CONTINUE_BUTTON_PROPERTY : false
+IS_FULLSCREEN : true
+DISPLAY_DURATION_PROPERTY : 0
+}]], ARTICLE]
+03-08-2024 19:48:54 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.DomainWebState - Displaying page of 
+[DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = 9d55886c-4883-4d7b-9ab5-32f1cccc93c4, Type = MEDIA_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+MEDIA_PARAMETERS : [DisplayMediaTutorRequest: display duration = 0 ms, whileTrainingAppLoads = true, title = Please Wait..., message = null, url = http://192.168.56.1:8885/resources/contentLoadingPage/loadingGuidance.html]
+HAS_CONTINUE_BUTTON_PROPERTY : false
+IS_FULLSCREEN : true
+DISPLAY_DURATION_PROPERTY : 0
+}]], ARTICLE]
+ for [DomainSessionWebSession: id = 7, experimentId = null, runtimeId = jvaida\2024-03-08_19-48-16\Simple Example Training App Course\exampleCourse.course.xml, sourceId = Public/Simple Example Training App Course/exampleCourse.course.xml, user = [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null], lessonStatus = INITIALIZING]
+03-08-2024 19:48:58 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.TutorModule - Tutor_Module received [DomainSessionMessage: domainSessionId = 7, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = LessonStarted, source event id = 711, seq # = 731, time = 2024:03:08 19:48:58:555 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_192.168.56.1_Inbox, destination address = Tutor_Queue_192.168.56.1_Inbox, payload = null, needs response = true]]]
+03-08-2024 19:48:58 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.UserWebSession - handleServerAction() called with action: [LessonStatusAction: actionType = [ActionTypeEnum: value = LESSON_STATUS], ACTIVE]
+03-08-2024 19:48:58 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.DomainWebState - processAction() called with action: [LessonStatusAction: actionType = [ActionTypeEnum: value = LESSON_STATUS], ACTIVE]
+03-08-2024 19:57:35 [Tutor_Queue_192.168.56.1_Message_Listener] WARN  mil.arl.gift.net.api.NetworkSession - It took 1163 ms to decode the DisplayFeedbackTutorRequest message of:
+[DomainSessionMessage: domainSessionId = 7, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = DisplayFeedbackTutorRequest, source event id = 1749, seq # = 1770, time = 2024:03:08 19:57:33:712 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_192.168.56.1_Inbox, destination address = Tutor_Queue_192.168.56.1_Inbox, payload = [TutorUserInterfaceFeedback: displayAvatarAction = [DisplayTextToSpeechAvatarAction: [DisplayAvatarAction: avatar = null], text = This is feedback because you pressed button 1.], displayTextAction = [DisplayTextAction: text = This is feedback because you pressed button 1., deliverySettings = generated.dkf.InTutor@40ce3df3], playAudioAction = null, clearTextAction = null, displayHTMLAction = null], needs response = true]]]
+03-08-2024 19:57:35 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.TutorModule - Tutor_Module received [DomainSessionMessage: domainSessionId = 7, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = DisplayFeedbackTutorRequest, source event id = 1749, seq # = 1770, time = 2024:03:08 19:57:33:712 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_192.168.56.1_Inbox, destination address = Tutor_Queue_192.168.56.1_Inbox, payload = [TutorUserInterfaceFeedback: displayAvatarAction = [DisplayTextToSpeechAvatarAction: [DisplayAvatarAction: avatar = null], text = This is feedback because you pressed button 1.], displayTextAction = [DisplayTextAction: text = This is feedback because you pressed button 1., deliverySettings = generated.dkf.InTutor@40ce3df3], playAudioAction = null, clearTextAction = null, displayHTMLAction = null], needs response = true]]]
+03-08-2024 19:57:35 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.UserWebSession - handleServerAction() called with action: [DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = d39ebce8-903a-45c3-849f-927ef48a13b7, Type = AVATAR_CONTAINER_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+HAS_NEW_FEEDBACK_PROPERTY : true
+OLD_FEEDBACK_STYLE_ENABLED : false
+WIDGET_TYPE : FEEDBACK_WIDGET
+SHOULD_UPDATE : true
+FEEDBACK : [[TutorUserInterfaceFeedback: displayAvatarAction = [DisplayAvatarAction: avatar = null], displayTextAction = null, playAudioAction = null, clearTextAction = null, displayHTMLAction = null]]
+}]], ARTICLE]
+03-08-2024 19:57:35 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.DomainWebState - processAction() called with action: [DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = d39ebce8-903a-45c3-849f-927ef48a13b7, Type = AVATAR_CONTAINER_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+HAS_NEW_FEEDBACK_PROPERTY : true
+OLD_FEEDBACK_STYLE_ENABLED : false
+WIDGET_TYPE : FEEDBACK_WIDGET
+SHOULD_UPDATE : true
+FEEDBACK : [[TutorUserInterfaceFeedback: displayAvatarAction = [DisplayAvatarAction: avatar = null], displayTextAction = null, playAudioAction = null, clearTextAction = null, displayHTMLAction = null]]
+}]], ARTICLE]
+03-08-2024 19:57:35 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.DomainWebState - Displaying page of 
+[DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = d39ebce8-903a-45c3-849f-927ef48a13b7, Type = AVATAR_CONTAINER_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+HAS_NEW_FEEDBACK_PROPERTY : true
+OLD_FEEDBACK_STYLE_ENABLED : false
+WIDGET_TYPE : FEEDBACK_WIDGET
+SHOULD_UPDATE : true
+FEEDBACK : [[TutorUserInterfaceFeedback: displayAvatarAction = [DisplayAvatarAction: avatar = null], displayTextAction = null, playAudioAction = null, clearTextAction = null, displayHTMLAction = null]]
+}]], ARTICLE]
+ for [DomainSessionWebSession: id = 7, experimentId = null, runtimeId = jvaida\2024-03-08_19-48-16\Simple Example Training App Course\exampleCourse.course.xml, sourceId = Public/Simple Example Training App Course/exampleCourse.course.xml, user = [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null], lessonStatus = ACTIVE]
+03-08-2024 19:57:35 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.DomainWebState - Adding display feedback request to queue.
+[TutorUserInterfaceFeedback: displayAvatarAction = null, displayTextAction = [DisplayTextAction: text = This is feedback because you pressed button 1., deliverySettings = generated.dkf.InTutor@40ce3df3], playAudioAction = null, clearTextAction = null, displayHTMLAction = null]
+03-08-2024 19:57:35 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.DomainWebState - The character is not idle right now therefore can't immediately apply the feedback request.
+03-08-2024 19:57:35 [qtp1301540158-326] DEBUG mil.arl.gift.tutor.server.TutorBrowserWebSession - handleClientAction() called with action: [AvatarStatusAction: actionType = [ActionTypeEnum: value = AVATAR_IDLE]
+03-08-2024 19:57:35 [qtp1301540158-326] DEBUG mil.arl.gift.tutor.server.UserWebSession - handleClientAction() called with action: [AvatarStatusAction: actionType = [ActionTypeEnum: value = AVATAR_IDLE]
+03-08-2024 19:57:35 [qtp1301540158-326] DEBUG mil.arl.gift.tutor.server.DomainWebState - processAction() called with action: [AvatarStatusAction: actionType = [ActionTypeEnum: value = AVATAR_IDLE]
+03-08-2024 19:57:35 [qtp1301540158-326] INFO  mil.arl.gift.tutor.server.DomainWebState - Setting character to idle while processing the action [AvatarStatusAction: actionType = [ActionTypeEnum: value = AVATAR_IDLE].
+03-08-2024 19:57:35 [qtp1301540158-326] INFO  mil.arl.gift.tutor.server.DomainWebState - Notified that character is idle (1709953055499) for session [DomainSessionWebSession: id = 7, experimentId = null, runtimeId = jvaida\2024-03-08_19-48-16\Simple Example Training App Course\exampleCourse.course.xml, sourceId = Public/Simple Example Training App Course/exampleCourse.course.xml, user = [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null], lessonStatus = ACTIVE]
+03-08-2024 19:57:35 [qtp1301540158-326] INFO  mil.arl.gift.tutor.server.DomainWebState - Applying next character update of [TutorUserInterfaceFeedback: displayAvatarAction = null, displayTextAction = [DisplayTextAction: text = This is feedback because you pressed button 1., deliverySettings = generated.dkf.InTutor@40ce3df3], playAudioAction = null, clearTextAction = null, displayHTMLAction = null]
+03-08-2024 19:57:35 [qtp1301540158-326] INFO  mil.arl.gift.tutor.server.DomainWebState - Adding empty feedback update request to queue.
+03-08-2024 19:57:35 [qtp1301540158-326] INFO  mil.arl.gift.tutor.server.DomainWebState - Applying next character update of [TutorUserInterfaceFeedback: displayAvatarAction = null, displayTextAction = null, playAudioAction = null, clearTextAction = null, displayHTMLAction = null]
+03-08-2024 19:57:35 [qtp1301540158-326] INFO  mil.arl.gift.tutor.server.DomainWebState - Displaying next character update of [TutorUserInterfaceFeedback: displayAvatarAction = null, displayTextAction = null, playAudioAction = null, clearTextAction = null, displayHTMLAction = null]
+03-08-2024 19:57:35 [qtp1301540158-326] DEBUG mil.arl.gift.tutor.server.UserWebSession - handleServerAction() called with action: [DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = feabbd0e-b345-43c7-93bb-fd88eeb4d8ce, Type = AVATAR_CONTAINER_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+HAS_NEW_FEEDBACK_PROPERTY : true
+OLD_FEEDBACK_STYLE_ENABLED : false
+WIDGET_TYPE : FEEDBACK_WIDGET
+SHOULD_UPDATE : true
+FEEDBACK : [[TutorUserInterfaceFeedback: displayAvatarAction = null, displayTextAction = [DisplayTextAction: text = This is feedback because you pressed button 1., deliverySettings = generated.dkf.InTutor@40ce3df3], playAudioAction = null, clearTextAction = null, displayHTMLAction = null]]
+}]], ARTICLE]
+03-08-2024 19:57:35 [qtp1301540158-326] DEBUG mil.arl.gift.tutor.server.DomainWebState - processAction() called with action: [DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = feabbd0e-b345-43c7-93bb-fd88eeb4d8ce, Type = AVATAR_CONTAINER_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+HAS_NEW_FEEDBACK_PROPERTY : true
+OLD_FEEDBACK_STYLE_ENABLED : false
+WIDGET_TYPE : FEEDBACK_WIDGET
+SHOULD_UPDATE : true
+FEEDBACK : [[TutorUserInterfaceFeedback: displayAvatarAction = null, displayTextAction = [DisplayTextAction: text = This is feedback because you pressed button 1., deliverySettings = generated.dkf.InTutor@40ce3df3], playAudioAction = null, clearTextAction = null, displayHTMLAction = null]]
+}]], ARTICLE]
+03-08-2024 19:57:35 [qtp1301540158-326] INFO  mil.arl.gift.tutor.server.DomainWebState - Displaying page of 
+[DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = feabbd0e-b345-43c7-93bb-fd88eeb4d8ce, Type = AVATAR_CONTAINER_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+HAS_NEW_FEEDBACK_PROPERTY : true
+OLD_FEEDBACK_STYLE_ENABLED : false
+WIDGET_TYPE : FEEDBACK_WIDGET
+SHOULD_UPDATE : true
+FEEDBACK : [[TutorUserInterfaceFeedback: displayAvatarAction = null, displayTextAction = [DisplayTextAction: text = This is feedback because you pressed button 1., deliverySettings = generated.dkf.InTutor@40ce3df3], playAudioAction = null, clearTextAction = null, displayHTMLAction = null]]
+}]], ARTICLE]
+ for [DomainSessionWebSession: id = 7, experimentId = null, runtimeId = jvaida\2024-03-08_19-48-16\Simple Example Training App Course\exampleCourse.course.xml, sourceId = Public/Simple Example Training App Course/exampleCourse.course.xml, user = [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null], lessonStatus = ACTIVE]
+03-08-2024 19:57:36 [qtp1301540158-678] DEBUG mil.arl.gift.tutor.server.TutorBrowserWebSession - handleClientAction() called with action: [SubmitAction: id = feabbd0e-b345-43c7-93bb-fd88eeb4d8ce, actionType = [ActionTypeEnum: value = SUBMIT]], properties = [WidgetProperties: properties = {
+HAS_NEW_FEEDBACK_PROPERTY : false
+OLD_FEEDBACK_STYLE_ENABLED : false
+WIDGET_TYPE : FEEDBACK_WIDGET
+SHOULD_UPDATE : true
+FEEDBACK : [[TutorUserInterfaceFeedback: displayAvatarAction = null, displayTextAction = [DisplayTextAction: text = This is feedback because you pressed button 1., deliverySettings = generated.dkf.InTutor@416c91a1], playAudioAction = null, clearTextAction = null, displayHTMLAction = null]]
+}]
+03-08-2024 19:57:36 [qtp1301540158-678] DEBUG mil.arl.gift.tutor.server.UserWebSession - handleClientAction() called with action: [SubmitAction: id = feabbd0e-b345-43c7-93bb-fd88eeb4d8ce, actionType = [ActionTypeEnum: value = SUBMIT]], properties = [WidgetProperties: properties = {
+HAS_NEW_FEEDBACK_PROPERTY : false
+OLD_FEEDBACK_STYLE_ENABLED : false
+WIDGET_TYPE : FEEDBACK_WIDGET
+SHOULD_UPDATE : true
+FEEDBACK : [[TutorUserInterfaceFeedback: displayAvatarAction = null, displayTextAction = [DisplayTextAction: text = This is feedback because you pressed button 1., deliverySettings = generated.dkf.InTutor@416c91a1], playAudioAction = null, clearTextAction = null, displayHTMLAction = null]]
+}]
+03-08-2024 19:57:36 [qtp1301540158-678] DEBUG mil.arl.gift.tutor.server.DomainWebState - processAction() called with action: [SubmitAction: id = feabbd0e-b345-43c7-93bb-fd88eeb4d8ce, actionType = [ActionTypeEnum: value = SUBMIT]], properties = [WidgetProperties: properties = {
+HAS_NEW_FEEDBACK_PROPERTY : false
+OLD_FEEDBACK_STYLE_ENABLED : false
+WIDGET_TYPE : FEEDBACK_WIDGET
+SHOULD_UPDATE : true
+FEEDBACK : [[TutorUserInterfaceFeedback: displayAvatarAction = null, displayTextAction = [DisplayTextAction: text = This is feedback because you pressed button 1., deliverySettings = generated.dkf.InTutor@416c91a1], playAudioAction = null, clearTextAction = null, displayHTMLAction = null]]
+}]
+03-08-2024 19:57:36 [qtp1301540158-678] DEBUG mil.arl.gift.tutor.server.TutorBrowserWebSession - handleClientAction() called with action: [AvatarStatusAction: actionType = [ActionTypeEnum: value = AVATAR_IDLE]
+03-08-2024 19:57:36 [qtp1301540158-678] DEBUG mil.arl.gift.tutor.server.UserWebSession - handleClientAction() called with action: [AvatarStatusAction: actionType = [ActionTypeEnum: value = AVATAR_IDLE]
+03-08-2024 19:57:36 [qtp1301540158-678] DEBUG mil.arl.gift.tutor.server.DomainWebState - processAction() called with action: [AvatarStatusAction: actionType = [ActionTypeEnum: value = AVATAR_IDLE]
+03-08-2024 19:57:36 [qtp1301540158-678] INFO  mil.arl.gift.tutor.server.DomainWebState - Setting character to idle while processing the action [AvatarStatusAction: actionType = [ActionTypeEnum: value = AVATAR_IDLE].
+03-08-2024 19:57:36 [qtp1301540158-678] INFO  mil.arl.gift.tutor.server.DomainWebState - Notified that character is idle (1709953056784) for session [DomainSessionWebSession: id = 7, experimentId = null, runtimeId = jvaida\2024-03-08_19-48-16\Simple Example Training App Course\exampleCourse.course.xml, sourceId = Public/Simple Example Training App Course/exampleCourse.course.xml, user = [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null], lessonStatus = ACTIVE]
+03-08-2024 19:57:40 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.TutorModule - Tutor_Module received [DomainSessionMessage: domainSessionId = 7, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = DisplayFeedbackTutorRequest, source event id = 1769, seq # = 1790, time = 2024:03:08 19:57:40:187 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_192.168.56.1_Inbox, destination address = Tutor_Queue_192.168.56.1_Inbox, payload = [TutorUserInterfaceFeedback: displayAvatarAction = [DisplayTextToSpeechAvatarAction: [DisplayAvatarAction: avatar = null], text = This is feedback because you pressed button 2.], displayTextAction = [DisplayTextAction: text = This is feedback because you pressed button 2., deliverySettings = generated.dkf.InTutor@5d3fa852], playAudioAction = null, clearTextAction = null, displayHTMLAction = null], needs response = true]]]
+03-08-2024 19:57:40 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.UserWebSession - handleServerAction() called with action: [DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = 40e12f4f-f32a-4225-819e-1ae5ca670a0b, Type = AVATAR_CONTAINER_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+HAS_NEW_FEEDBACK_PROPERTY : true
+OLD_FEEDBACK_STYLE_ENABLED : false
+WIDGET_TYPE : FEEDBACK_WIDGET
+SHOULD_UPDATE : true
+FEEDBACK : [[TutorUserInterfaceFeedback: displayAvatarAction = [DisplayAvatarAction: avatar = null], displayTextAction = null, playAudioAction = null, clearTextAction = null, displayHTMLAction = null]]
+}]], ARTICLE]
+03-08-2024 19:57:40 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.DomainWebState - processAction() called with action: [DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = 40e12f4f-f32a-4225-819e-1ae5ca670a0b, Type = AVATAR_CONTAINER_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+HAS_NEW_FEEDBACK_PROPERTY : true
+OLD_FEEDBACK_STYLE_ENABLED : false
+WIDGET_TYPE : FEEDBACK_WIDGET
+SHOULD_UPDATE : true
+FEEDBACK : [[TutorUserInterfaceFeedback: displayAvatarAction = [DisplayAvatarAction: avatar = null], displayTextAction = null, playAudioAction = null, clearTextAction = null, displayHTMLAction = null]]
+}]], ARTICLE]
+03-08-2024 19:57:40 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.DomainWebState - Displaying page of 
+[DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = 40e12f4f-f32a-4225-819e-1ae5ca670a0b, Type = AVATAR_CONTAINER_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+HAS_NEW_FEEDBACK_PROPERTY : true
+OLD_FEEDBACK_STYLE_ENABLED : false
+WIDGET_TYPE : FEEDBACK_WIDGET
+SHOULD_UPDATE : true
+FEEDBACK : [[TutorUserInterfaceFeedback: displayAvatarAction = [DisplayAvatarAction: avatar = null], displayTextAction = null, playAudioAction = null, clearTextAction = null, displayHTMLAction = null]]
+}]], ARTICLE]
+ for [DomainSessionWebSession: id = 7, experimentId = null, runtimeId = jvaida\2024-03-08_19-48-16\Simple Example Training App Course\exampleCourse.course.xml, sourceId = Public/Simple Example Training App Course/exampleCourse.course.xml, user = [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null], lessonStatus = ACTIVE]
+03-08-2024 19:57:40 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.DomainWebState - Adding display feedback request to queue.
+[TutorUserInterfaceFeedback: displayAvatarAction = null, displayTextAction = [DisplayTextAction: text = This is feedback because you pressed button 2., deliverySettings = generated.dkf.InTutor@5d3fa852], playAudioAction = null, clearTextAction = null, displayHTMLAction = null]
+03-08-2024 19:57:40 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.DomainWebState - Applying next character update of [TutorUserInterfaceFeedback: displayAvatarAction = null, displayTextAction = [DisplayTextAction: text = This is feedback because you pressed button 2., deliverySettings = generated.dkf.InTutor@5d3fa852], playAudioAction = null, clearTextAction = null, displayHTMLAction = null]
+03-08-2024 19:57:40 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.DomainWebState - Adding empty feedback update request to queue.
+03-08-2024 19:57:40 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.DomainWebState - Applying next character update of [TutorUserInterfaceFeedback: displayAvatarAction = null, displayTextAction = null, playAudioAction = null, clearTextAction = null, displayHTMLAction = null]
+03-08-2024 19:57:40 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.DomainWebState - Displaying next character update of [TutorUserInterfaceFeedback: displayAvatarAction = null, displayTextAction = null, playAudioAction = null, clearTextAction = null, displayHTMLAction = null]
+03-08-2024 19:57:40 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.UserWebSession - handleServerAction() called with action: [DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = 2fcf9dd2-75cd-4452-b4fe-f28b6b6762f3, Type = AVATAR_CONTAINER_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+HAS_NEW_FEEDBACK_PROPERTY : true
+OLD_FEEDBACK_STYLE_ENABLED : false
+WIDGET_TYPE : FEEDBACK_WIDGET
+SHOULD_UPDATE : true
+FEEDBACK : [[TutorUserInterfaceFeedback: displayAvatarAction = null, displayTextAction = [DisplayTextAction: text = This is feedback because you pressed button 2., deliverySettings = generated.dkf.InTutor@5d3fa852], playAudioAction = null, clearTextAction = null, displayHTMLAction = null]]
+}]], ARTICLE]
+03-08-2024 19:57:40 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.DomainWebState - processAction() called with action: [DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = 2fcf9dd2-75cd-4452-b4fe-f28b6b6762f3, Type = AVATAR_CONTAINER_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+HAS_NEW_FEEDBACK_PROPERTY : true
+OLD_FEEDBACK_STYLE_ENABLED : false
+WIDGET_TYPE : FEEDBACK_WIDGET
+SHOULD_UPDATE : true
+FEEDBACK : [[TutorUserInterfaceFeedback: displayAvatarAction = null, displayTextAction = [DisplayTextAction: text = This is feedback because you pressed button 2., deliverySettings = generated.dkf.InTutor@5d3fa852], playAudioAction = null, clearTextAction = null, displayHTMLAction = null]]
+}]], ARTICLE]
+03-08-2024 19:57:40 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.DomainWebState - Displaying page of 
+[DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = 2fcf9dd2-75cd-4452-b4fe-f28b6b6762f3, Type = AVATAR_CONTAINER_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+HAS_NEW_FEEDBACK_PROPERTY : true
+OLD_FEEDBACK_STYLE_ENABLED : false
+WIDGET_TYPE : FEEDBACK_WIDGET
+SHOULD_UPDATE : true
+FEEDBACK : [[TutorUserInterfaceFeedback: displayAvatarAction = null, displayTextAction = [DisplayTextAction: text = This is feedback because you pressed button 2., deliverySettings = generated.dkf.InTutor@5d3fa852], playAudioAction = null, clearTextAction = null, displayHTMLAction = null]]
+}]], ARTICLE]
+ for [DomainSessionWebSession: id = 7, experimentId = null, runtimeId = jvaida\2024-03-08_19-48-16\Simple Example Training App Course\exampleCourse.course.xml, sourceId = Public/Simple Example Training App Course/exampleCourse.course.xml, user = [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null], lessonStatus = ACTIVE]
+03-08-2024 19:57:40 [qtp1301540158-326] DEBUG mil.arl.gift.tutor.server.TutorBrowserWebSession - handleClientAction() called with action: [AvatarStatusAction: actionType = [ActionTypeEnum: value = AVATAR_IDLE]
+03-08-2024 19:57:40 [qtp1301540158-326] DEBUG mil.arl.gift.tutor.server.UserWebSession - handleClientAction() called with action: [AvatarStatusAction: actionType = [ActionTypeEnum: value = AVATAR_IDLE]
+03-08-2024 19:57:40 [qtp1301540158-326] DEBUG mil.arl.gift.tutor.server.DomainWebState - processAction() called with action: [AvatarStatusAction: actionType = [ActionTypeEnum: value = AVATAR_IDLE]
+03-08-2024 19:57:40 [qtp1301540158-326] INFO  mil.arl.gift.tutor.server.DomainWebState - Setting character to idle while processing the action [AvatarStatusAction: actionType = [ActionTypeEnum: value = AVATAR_IDLE].
+03-08-2024 19:57:40 [qtp1301540158-326] INFO  mil.arl.gift.tutor.server.DomainWebState - Notified that character is idle (1709953060260) for session [DomainSessionWebSession: id = 7, experimentId = null, runtimeId = jvaida\2024-03-08_19-48-16\Simple Example Training App Course\exampleCourse.course.xml, sourceId = Public/Simple Example Training App Course/exampleCourse.course.xml, user = [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null], lessonStatus = ACTIVE]
+03-08-2024 19:57:40 [qtp1301540158-678] DEBUG mil.arl.gift.tutor.server.TutorBrowserWebSession - handleClientAction() called with action: [SubmitAction: id = 2fcf9dd2-75cd-4452-b4fe-f28b6b6762f3, actionType = [ActionTypeEnum: value = SUBMIT]], properties = [WidgetProperties: properties = {
+HAS_NEW_FEEDBACK_PROPERTY : false
+OLD_FEEDBACK_STYLE_ENABLED : false
+WIDGET_TYPE : FEEDBACK_WIDGET
+SHOULD_UPDATE : true
+FEEDBACK : [[TutorUserInterfaceFeedback: displayAvatarAction = null, displayTextAction = [DisplayTextAction: text = This is feedback because you pressed button 2., deliverySettings = generated.dkf.InTutor@5fca48da], playAudioAction = null, clearTextAction = null, displayHTMLAction = null]]
+}]
+03-08-2024 19:57:40 [qtp1301540158-678] DEBUG mil.arl.gift.tutor.server.UserWebSession - handleClientAction() called with action: [SubmitAction: id = 2fcf9dd2-75cd-4452-b4fe-f28b6b6762f3, actionType = [ActionTypeEnum: value = SUBMIT]], properties = [WidgetProperties: properties = {
+HAS_NEW_FEEDBACK_PROPERTY : false
+OLD_FEEDBACK_STYLE_ENABLED : false
+WIDGET_TYPE : FEEDBACK_WIDGET
+SHOULD_UPDATE : true
+FEEDBACK : [[TutorUserInterfaceFeedback: displayAvatarAction = null, displayTextAction = [DisplayTextAction: text = This is feedback because you pressed button 2., deliverySettings = generated.dkf.InTutor@5fca48da], playAudioAction = null, clearTextAction = null, displayHTMLAction = null]]
+}]
+03-08-2024 19:57:40 [qtp1301540158-678] DEBUG mil.arl.gift.tutor.server.DomainWebState - processAction() called with action: [SubmitAction: id = 2fcf9dd2-75cd-4452-b4fe-f28b6b6762f3, actionType = [ActionTypeEnum: value = SUBMIT]], properties = [WidgetProperties: properties = {
+HAS_NEW_FEEDBACK_PROPERTY : false
+OLD_FEEDBACK_STYLE_ENABLED : false
+WIDGET_TYPE : FEEDBACK_WIDGET
+SHOULD_UPDATE : true
+FEEDBACK : [[TutorUserInterfaceFeedback: displayAvatarAction = null, displayTextAction = [DisplayTextAction: text = This is feedback because you pressed button 2., deliverySettings = generated.dkf.InTutor@5fca48da], playAudioAction = null, clearTextAction = null, displayHTMLAction = null]]
+}]
+03-08-2024 19:57:40 [qtp1301540158-678] DEBUG mil.arl.gift.tutor.server.TutorBrowserWebSession - handleClientAction() called with action: [AvatarStatusAction: actionType = [ActionTypeEnum: value = AVATAR_IDLE]
+03-08-2024 19:57:40 [qtp1301540158-678] DEBUG mil.arl.gift.tutor.server.UserWebSession - handleClientAction() called with action: [AvatarStatusAction: actionType = [ActionTypeEnum: value = AVATAR_IDLE]
+03-08-2024 19:57:40 [qtp1301540158-678] DEBUG mil.arl.gift.tutor.server.DomainWebState - processAction() called with action: [AvatarStatusAction: actionType = [ActionTypeEnum: value = AVATAR_IDLE]
+03-08-2024 19:57:40 [qtp1301540158-678] INFO  mil.arl.gift.tutor.server.DomainWebState - Setting character to idle while processing the action [AvatarStatusAction: actionType = [ActionTypeEnum: value = AVATAR_IDLE].
+03-08-2024 19:57:40 [qtp1301540158-678] INFO  mil.arl.gift.tutor.server.DomainWebState - Notified that character is idle (1709953060260) for session [DomainSessionWebSession: id = 7, experimentId = null, runtimeId = jvaida\2024-03-08_19-48-16\Simple Example Training App Course\exampleCourse.course.xml, sourceId = Public/Simple Example Training App Course/exampleCourse.course.xml, user = [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null], lessonStatus = ACTIVE]
+03-08-2024 19:57:56 [Tutor_Queue_192.168.56.1_Message_Listener] WARN  mil.arl.gift.net.api.NetworkSession - It took 640 ms to decode the LessonCompleted message of:
+[DomainSessionMessage: domainSessionId = 7, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = LessonCompleted, source event id = 1811, seq # = 1834, time = 2024:03:08 19:57:55:733 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_192.168.56.1_Inbox, destination address = Tutor_Queue_192.168.56.1_Inbox, payload = [LessonCompleted: statusType = LESSON_RULE], needs response = true]]]
+03-08-2024 19:57:56 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.TutorModule - Tutor_Module received [DomainSessionMessage: domainSessionId = 7, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = LessonCompleted, source event id = 1811, seq # = 1834, time = 2024:03:08 19:57:55:733 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_192.168.56.1_Inbox, destination address = Tutor_Queue_192.168.56.1_Inbox, payload = [LessonCompleted: statusType = LESSON_RULE], needs response = true]]]
+03-08-2024 19:57:56 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.UserWebSession - handleServerAction() called with action: [LessonStatusAction: actionType = [ActionTypeEnum: value = LESSON_STATUS], INACTIVE]
+03-08-2024 19:57:56 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.DomainWebState - processAction() called with action: [LessonStatusAction: actionType = [ActionTypeEnum: value = LESSON_STATUS], INACTIVE]
+03-08-2024 19:57:58 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.TutorModule - Tutor_Module received [DomainSessionMessage: domainSessionId = 7, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = DisplayFeedbackTutorRequest, source event id = 1819, seq # = 1844, time = 2024:03:08 19:57:58:922 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_192.168.56.1_Inbox, destination address = Tutor_Queue_192.168.56.1_Inbox, payload = [TutorUserInterfaceFeedback: displayAvatarAction = null, displayTextAction = null, playAudioAction = null, clearTextAction = [ClearTextAction], displayHTMLAction = null], needs response = true]]]
+03-08-2024 19:57:58 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.DomainWebState - Adding display feedback request to queue.
+[TutorUserInterfaceFeedback: displayAvatarAction = null, displayTextAction = null, playAudioAction = null, clearTextAction = [ClearTextAction], displayHTMLAction = null]
+03-08-2024 19:57:58 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.DomainWebState - Applying next character update of [TutorUserInterfaceFeedback: displayAvatarAction = null, displayTextAction = null, playAudioAction = null, clearTextAction = [ClearTextAction], displayHTMLAction = null]
+03-08-2024 19:57:58 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.DomainWebState - Adding empty feedback update request to queue.
+03-08-2024 19:57:58 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.DomainWebState - Applying next character update of [TutorUserInterfaceFeedback: displayAvatarAction = null, displayTextAction = null, playAudioAction = null, clearTextAction = null, displayHTMLAction = null]
+03-08-2024 19:57:58 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.DomainWebState - Displaying next character update of [TutorUserInterfaceFeedback: displayAvatarAction = null, displayTextAction = null, playAudioAction = null, clearTextAction = null, displayHTMLAction = null]
+03-08-2024 19:57:58 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.UserWebSession - handleServerAction() called with action: [DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = f5106de8-3214-424c-a60b-e3573452ef9a, Type = AVATAR_CONTAINER_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+HAS_NEW_FEEDBACK_PROPERTY : true
+OLD_FEEDBACK_STYLE_ENABLED : false
+WIDGET_TYPE : FEEDBACK_WIDGET
+SHOULD_UPDATE : true
+FEEDBACK : [[TutorUserInterfaceFeedback: displayAvatarAction = null, displayTextAction = null, playAudioAction = null, clearTextAction = [ClearTextAction], displayHTMLAction = null]]
+}]], ARTICLE]
+03-08-2024 19:57:58 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.DomainWebState - processAction() called with action: [DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = f5106de8-3214-424c-a60b-e3573452ef9a, Type = AVATAR_CONTAINER_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+HAS_NEW_FEEDBACK_PROPERTY : true
+OLD_FEEDBACK_STYLE_ENABLED : false
+WIDGET_TYPE : FEEDBACK_WIDGET
+SHOULD_UPDATE : true
+FEEDBACK : [[TutorUserInterfaceFeedback: displayAvatarAction = null, displayTextAction = null, playAudioAction = null, clearTextAction = [ClearTextAction], displayHTMLAction = null]]
+}]], ARTICLE]
+03-08-2024 19:57:58 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.DomainWebState - Displaying page of 
+[DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = f5106de8-3214-424c-a60b-e3573452ef9a, Type = AVATAR_CONTAINER_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+HAS_NEW_FEEDBACK_PROPERTY : true
+OLD_FEEDBACK_STYLE_ENABLED : false
+WIDGET_TYPE : FEEDBACK_WIDGET
+SHOULD_UPDATE : true
+FEEDBACK : [[TutorUserInterfaceFeedback: displayAvatarAction = null, displayTextAction = null, playAudioAction = null, clearTextAction = [ClearTextAction], displayHTMLAction = null]]
+}]], ARTICLE]
+ for [DomainSessionWebSession: id = 7, experimentId = null, runtimeId = jvaida\2024-03-08_19-48-16\Simple Example Training App Course\exampleCourse.course.xml, sourceId = Public/Simple Example Training App Course/exampleCourse.course.xml, user = [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null], lessonStatus = INACTIVE]
+03-08-2024 19:57:58 [qtp1301540158-678] DEBUG mil.arl.gift.tutor.server.TutorBrowserWebSession - handleClientAction() called with action: [AvatarStatusAction: actionType = [ActionTypeEnum: value = AVATAR_IDLE]
+03-08-2024 19:57:58 [qtp1301540158-678] DEBUG mil.arl.gift.tutor.server.UserWebSession - handleClientAction() called with action: [AvatarStatusAction: actionType = [ActionTypeEnum: value = AVATAR_IDLE]
+03-08-2024 19:57:58 [qtp1301540158-678] DEBUG mil.arl.gift.tutor.server.DomainWebState - processAction() called with action: [AvatarStatusAction: actionType = [ActionTypeEnum: value = AVATAR_IDLE]
+03-08-2024 19:57:58 [qtp1301540158-678] INFO  mil.arl.gift.tutor.server.DomainWebState - Setting character to idle while processing the action [AvatarStatusAction: actionType = [ActionTypeEnum: value = AVATAR_IDLE].
+03-08-2024 19:57:58 [qtp1301540158-678] INFO  mil.arl.gift.tutor.server.DomainWebState - Notified that character is idle (1709953078922) for session [DomainSessionWebSession: id = 7, experimentId = null, runtimeId = jvaida\2024-03-08_19-48-16\Simple Example Training App Course\exampleCourse.course.xml, sourceId = Public/Simple Example Training App Course/exampleCourse.course.xml, user = [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null], lessonStatus = INACTIVE]
+03-08-2024 19:57:59 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.TutorModule - Tutor_Module received [DomainSessionMessage: domainSessionId = 7, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = CourseState, source event id = 1821, seq # = 1848, time = 2024:03:08 19:57:59:047 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_192.168.56.1_Inbox, destination address = Tutor_Queue_192.168.56.1_Inbox, payload = [CourseState: nextTransitionImpl = generated.course.Guidance, nextQuadrant = null, requiredLearnerStateAttributes = null, expandableCourseObjectStateEnum = NONE], needs response = false]]]
+03-08-2024 19:57:59 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.UserWebSession - handleServerAction() called with action: [CloseAction: id = f5106de8-3214-424c-a60b-e3573452ef9a, actionType = [ActionTypeEnum: value = CLOSE]]]
+03-08-2024 19:57:59 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.DomainWebState - processAction() called with action: [CloseAction: id = f5106de8-3214-424c-a60b-e3573452ef9a, actionType = [ActionTypeEnum: value = CLOSE]]]
+03-08-2024 19:57:59 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.DomainWebState - Clearing character actions applying close action for client widget.
+03-08-2024 19:57:59 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.DomainWebState - Setting character to busy (1709953079063) for [DomainSessionWebSession: id = 7, experimentId = null, runtimeId = jvaida\2024-03-08_19-48-16\Simple Example Training App Course\exampleCourse.course.xml, sourceId = Public/Simple Example Training App Course/exampleCourse.course.xml, user = [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null], lessonStatus = INACTIVE]
+03-08-2024 19:57:59 [qtp1301540158-326] DEBUG mil.arl.gift.tutor.server.TutorBrowserWebSession - handleClientAction() called with action: [AvatarStatusAction: actionType = [ActionTypeEnum: value = AVATAR_BUSY]
+03-08-2024 19:57:59 [qtp1301540158-326] DEBUG mil.arl.gift.tutor.server.UserWebSession - handleClientAction() called with action: [AvatarStatusAction: actionType = [ActionTypeEnum: value = AVATAR_BUSY]
+03-08-2024 19:57:59 [qtp1301540158-326] DEBUG mil.arl.gift.tutor.server.DomainWebState - processAction() called with action: [AvatarStatusAction: actionType = [ActionTypeEnum: value = AVATAR_BUSY]
+03-08-2024 19:57:59 [qtp1301540158-326] INFO  mil.arl.gift.tutor.server.DomainWebState - Setting character to busy while processing the action [AvatarStatusAction: actionType = [ActionTypeEnum: value = AVATAR_BUSY].
+03-08-2024 19:57:59 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.TutorModule - Tutor_Module received [DomainSessionMessage: domainSessionId = 7, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = DisplayContentTutorRequest, source event id = 1823, seq # = 1850, time = 2024:03:08 19:57:59:047 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_192.168.56.1_Inbox, destination address = Tutor_Queue_192.168.56.1_Inbox, payload = [DisplayMessageTutorRequest:  title = Goodbye, message = Congratulations!  You finished the lesson when you selected 'button 3'., display duration = 0 ms, whileTrainingAppLoads = false], needs response = true]]]
+03-08-2024 19:57:59 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.UserWebSession - handleServerAction() called with action: [DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = aa1272f6-b0eb-40f3-ac21-0a12062d9d17, Type = MESSAGE_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+MESSAGE_PARAMETERS : [DisplayMessageTutorRequest:  title = Goodbye, message = Congratulations!  You finished the lesson when you selected 'button 3'., display duration = 0 ms, whileTrainingAppLoads = false]
+IS_FULLSCREEN : true
+DISPLAY_DURATION_PROPERTY : 0
+}]], ARTICLE]
+03-08-2024 19:57:59 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.DomainWebState - processAction() called with action: [DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = aa1272f6-b0eb-40f3-ac21-0a12062d9d17, Type = MESSAGE_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+MESSAGE_PARAMETERS : [DisplayMessageTutorRequest:  title = Goodbye, message = Congratulations!  You finished the lesson when you selected 'button 3'., display duration = 0 ms, whileTrainingAppLoads = false]
+IS_FULLSCREEN : true
+DISPLAY_DURATION_PROPERTY : 0
+}]], ARTICLE]
+03-08-2024 19:57:59 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.DomainWebState - Displaying page of 
+[DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = aa1272f6-b0eb-40f3-ac21-0a12062d9d17, Type = MESSAGE_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+MESSAGE_PARAMETERS : [DisplayMessageTutorRequest:  title = Goodbye, message = Congratulations!  You finished the lesson when you selected 'button 3'., display duration = 0 ms, whileTrainingAppLoads = false]
+IS_FULLSCREEN : true
+DISPLAY_DURATION_PROPERTY : 0
+}]], ARTICLE]
+ for [DomainSessionWebSession: id = 7, experimentId = null, runtimeId = jvaida\2024-03-08_19-48-16\Simple Example Training App Course\exampleCourse.course.xml, sourceId = Public/Simple Example Training App Course/exampleCourse.course.xml, user = [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null], lessonStatus = INACTIVE]
+03-08-2024 19:58:01 [qtp1301540158-326] DEBUG mil.arl.gift.tutor.server.TutorBrowserWebSession - handleClientAction() called with action: [CloseAction: id = aa1272f6-b0eb-40f3-ac21-0a12062d9d17, actionType = [ActionTypeEnum: value = CLOSE]]]
+03-08-2024 19:58:01 [qtp1301540158-326] DEBUG mil.arl.gift.tutor.server.UserWebSession - handleClientAction() called with action: [CloseAction: id = aa1272f6-b0eb-40f3-ac21-0a12062d9d17, actionType = [ActionTypeEnum: value = CLOSE]]]
+03-08-2024 19:58:01 [qtp1301540158-326] DEBUG mil.arl.gift.tutor.server.DomainWebState - processAction() called with action: [CloseAction: id = aa1272f6-b0eb-40f3-ac21-0a12062d9d17, actionType = [ActionTypeEnum: value = CLOSE]]]
+03-08-2024 19:58:01 [qtp1301540158-326] INFO  mil.arl.gift.tutor.server.DomainWebState - Clearing character actions applying close action for client widget.
+03-08-2024 19:58:01 [qtp1301540158-326] INFO  mil.arl.gift.tutor.server.DomainWebState - [DomainSessionWebSession: id = 7, experimentId = null, runtimeId = jvaida\2024-03-08_19-48-16\Simple Example Training App Course\exampleCourse.course.xml, sourceId = Public/Simple Example Training App Course/exampleCourse.course.xml, user = [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null], lessonStatus = INACTIVE]: Applying [CloseAction: id = aa1272f6-b0eb-40f3-ac21-0a12062d9d17, actionType = [ActionTypeEnum: value = CLOSE]]]
+03-08-2024 19:58:01 [qtp1301540158-326] INFO  mil.arl.gift.tutor.server.UserWebSession - The request from a DisplayGuidanceTutorRequest has been fulfilled, received: [CloseAction: id = aa1272f6-b0eb-40f3-ac21-0a12062d9d17, actionType = [ActionTypeEnum: value = CLOSE]]]
+03-08-2024 19:58:01 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.TutorModule - Tutor_Module received [DomainSessionMessage: domainSessionId = 7, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = CloseDomainSessionRequest, source event id = 1831, seq # = 1864, time = 2024:03:08 19:58:01:720 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_192.168.56.1_Inbox, destination address = Tutor_Queue_192.168.56.1_Inbox, payload = [CloseDomainSessionRequest: reason = null], needs response = true]]]
+03-08-2024 19:58:01 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.UserWebSession - Removing domain session entry because of close domain session request for domain session id of 7
+03-08-2024 19:58:01 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.UserWebSession - onDomainSessionClosed
+03-08-2024 19:58:01 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.UserWebSession - handleServerAction() called with action: [DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = 66a2b990-cafe-4b0d-81a2-8071321ccafc, Type = FOOTER_TEXT_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+MESSAGE_PARAMETERS : [DisplayMessageTutorRequest:  title = Information, message = The domain session has ended., display duration = 0 ms, whileTrainingAppLoads = false]
+HAS_CONTINUE_BUTTON_PROPERTY : false
+DISPLAY_DURATION_PROPERTY : 0
+}]], FOOTER]
+03-08-2024 19:58:01 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.DomainWebState - processAction() called with action: [DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = 66a2b990-cafe-4b0d-81a2-8071321ccafc, Type = FOOTER_TEXT_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+MESSAGE_PARAMETERS : [DisplayMessageTutorRequest:  title = Information, message = The domain session has ended., display duration = 0 ms, whileTrainingAppLoads = false]
+HAS_CONTINUE_BUTTON_PROPERTY : false
+DISPLAY_DURATION_PROPERTY : 0
+}]], FOOTER]
+03-08-2024 19:58:01 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.DomainWebState - Displaying page of 
+[DisplayWidgetAction: actionType = [ActionTypeEnum: value = DISPLAY_WIDGET], [WidgetInstance: ID = 66a2b990-cafe-4b0d-81a2-8071321ccafc, Type = FOOTER_TEXT_WIDGET, WidgetProperties = [WidgetProperties: properties = {
+MESSAGE_PARAMETERS : [DisplayMessageTutorRequest:  title = Information, message = The domain session has ended., display duration = 0 ms, whileTrainingAppLoads = false]
+HAS_CONTINUE_BUTTON_PROPERTY : false
+DISPLAY_DURATION_PROPERTY : 0
+}]], FOOTER]
+ for [DomainSessionWebSession: id = 7, experimentId = null, runtimeId = jvaida\2024-03-08_19-48-16\Simple Example Training App Course\exampleCourse.course.xml, sourceId = Public/Simple Example Training App Course/exampleCourse.course.xml, user = [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null], lessonStatus = INACTIVE]
+03-08-2024 19:58:01 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.DomainWebState - Instantiating the footer widget for [DomainSessionWebSession: id = 7, experimentId = null, runtimeId = jvaida\2024-03-08_19-48-16\Simple Example Training App Course\exampleCourse.course.xml, sourceId = Public/Simple Example Training App Course/exampleCourse.course.xml, user = [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null], lessonStatus = INACTIVE]
+03-08-2024 19:58:02 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.UserWebSession - Removing domain session entry because domain session ended for domain session id of 7
+03-08-2024 19:58:02 [Tutor_Queue_192.168.56.1 Decoded Message Listener] INFO  mil.arl.gift.tutor.server.UserWebSession - Domain session has ended therefore setting domain web state to null for User Session object
+03-08-2024 19:58:02 [Tutor_Queue_192.168.56.1 Decoded Message Listener] DEBUG mil.arl.gift.tutor.server.TutorBrowserWebSession - onDomainSessionClosed() for session: [TutorBrowserWebSession: userSessionKey = d6a9d7d2-c546-4152-87ef-7ac69eb7121e, browserSession = 321c6426-12d8-4feb-9dc5-a39f41ad8332, status = RUNNING, clientInfo = [WebClientInformation: clientAddress = 192.168.0.100, mobileAppProperties = null], isExperimentSession = false]
+03-08-2024 19:58:02 [qtp1301540158-679] DEBUG mil.arl.gift.tutor.server.TutorUserInterfaceServiceImpl - userLogout rpc called for browser: 321c6426-12d8-4feb-9dc5-a39f41ad8332
+03-08-2024 19:58:02 [qtp1301540158-679] DEBUG mil.arl.gift.tutor.server.UserWebSession - logoutUser() start
+03-08-2024 19:58:03 [Msg 1786 success callback] INFO  mil.arl.gift.tutor.server.UserWebSession - Stopping user session for user ID 1
+03-08-2024 19:58:03 [Msg 1786 success callback] INFO  mil.arl.gift.tutor.server.TutorModule - Removing user session from collection because the session has stopped.  [UserSession: userId = 1, username = jvaida, experimentId = null, sessionType = GIFT_USER, sessionDetails = null]
+03-08-2024 19:58:03 [Msg 1786 success callback] DEBUG mil.arl.gift.tutor.server.TutorBrowserWebSession - onSessionEnded()
+03-08-2024 19:58:03 [Msg 1786 success callback] INFO  mil.arl.gift.tutor.server.UserWebSession - Ending user session for user ID 1
+03-08-2024 19:58:03 [Msg 1786 success callback] DEBUG mil.arl.gift.tutor.server.UserWebSession - logoutUser() logoutMessage returned success
+03-08-2024 19:58:03 [qtp1301540158-679] DEBUG mil.arl.gift.tutor.server.UserWebSession - logoutUser() end
+03-08-2024 19:58:03 [qtp1301540158-326] DEBUG mil.arl.gift.tutor.server.TutorBrowserWebSession - onSocketClosed()
+03-08-2024 19:58:03 [qtp1301540158-326] INFO  mil.arl.gift.tutor.server.websocket.TutorWebSocketServlet - Web socket removed for client with socket ID of 444527a9-3488-496a-820c-c2cc8b4dc972
+03-09-2024 23:05:12 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@51150] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'Tutor_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+03-09-2024 23:05:12 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@51310] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'Domain_Queue_192.168.56.1_Inbox' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+03-09-2024 23:05:12 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@51300] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'LMS_Queue_192.168.56.1_Inbox' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+03-09-2024 23:05:12 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@51297] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'UMS_Queue_192.168.56.1_Inbox' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+03-09-2024 23:05:12 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@51149] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'Domain_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+03-09-2024 23:05:12 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@51148] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'LMS_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+03-09-2024 23:05:12 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@51147] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'UMS_Discovery_Topic' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+03-09-2024 23:05:12 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61617@51146] WARN  mil.arl.gift.net.api.MessageClient - Message client for subject 'Tutor_Queue_192.168.56.1' caught JMSExcepion, attempting to reconnect.
+javax.jms.JMSException: java.io.EOFException
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:67) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:2033) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:2052) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:346) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-all-5.18.3.jar:5.18.3]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:397) ~[?:?]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-all-5.18.3.jar:5.18.3]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-all-5.18.3.jar:5.18.3]
+	... 1 more
+03-09-2024 23:05:12 [Domain_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+03-09-2024 23:05:12 [Tutor_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+03-09-2024 23:05:12 [UMS_Queue_192.168.56.1_Inbox_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+03-09-2024 23:05:12 [Tutor_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client broker session
+03-09-2024 23:05:12 [LMS_Queue_192.168.56.1_Inbox_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+03-09-2024 23:05:12 [UMS_Queue_192.168.56.1_Inbox_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client broker session
+03-09-2024 23:05:12 [Domain_Queue_192.168.56.1_Inbox_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+03-09-2024 23:05:12 [Tutor_Queue_192.168.56.1_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+03-09-2024 23:05:12 [Domain_Queue_192.168.56.1_Inbox_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client broker session
+03-09-2024 23:05:12 [UMS_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+03-09-2024 23:05:12 [Domain_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client broker session
+03-09-2024 23:05:12 [Tutor_Queue_192.168.56.1_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client broker session
+03-09-2024 23:05:12 [UMS_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client broker session
+03-09-2024 23:05:12 [LMS_Queue_192.168.56.1_Inbox_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client broker session
+03-09-2024 23:05:12 [LMS_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client message producer
+03-09-2024 23:05:12 [LMS_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client broker session
+03-09-2024 23:05:12 [Tutor_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client broker connection
+03-09-2024 23:05:12 [UMS_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client broker connection
+03-09-2024 23:05:12 [LMS_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client broker connection
+03-09-2024 23:05:12 [LMS_Queue_192.168.56.1_Inbox_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client broker connection
+03-09-2024 23:05:12 [Tutor_Queue_192.168.56.1_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client broker connection
+03-09-2024 23:05:12 [Domain_Discovery_Topic_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client broker connection
+03-09-2024 23:05:12 [UMS_Queue_192.168.56.1_Inbox_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client broker connection
+03-09-2024 23:05:12 [Domain_Queue_192.168.56.1_Inbox_Reconnect_Thread] WARN  mil.arl.gift.net.api.MessageClient - Caught JMSException for an inactive message client (hence why this is a warning and not an error) while disconnecting the message client broker connection

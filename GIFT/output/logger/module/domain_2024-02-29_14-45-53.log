@@ -1,0 +1,42 @@
+02-29-2024 14:58:29 [Domain_Queue_172.20.80.1_Message_Listener] WARN  mil.arl.gift.net.api.NetworkSession - It took 8271 ms to decode the DomainSelectionRequest message of:
+[UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = DomainSelectionRequest, source event id = 1417, seq # = 1417, time = 2024:02:29 14:58:19:822 MST, sender type = Tutor_Module, sender name = Tutor_Module, sender address = Tutor_Queue_172.20.80.1_Inbox, destination address = Domain_Queue_172.20.80.1_Inbox, payload = [DomainSelectionRequest: Domain Runtime Id: = jvaida\2024-02-29_14-57-37\Simple Example Training App Course\exampleCourse.course.xml, Domain Source Id: = Public/Simple Example Training App Course/exampleCourse.course.xml, LMS Username = jvaida, client info = [WebClientInformation: clientAddress = 10.155.227.236, mobileAppProperties = null], runtime params = null], needs response = true]]
+02-29-2024 15:09:43 [Domain_Queue_172.20.80.1_Message_Listener] WARN  mil.arl.gift.net.api.NetworkSession - It took 2051 ms to decode the CloseDomainSessionRequest message of:
+[DomainSessionMessage: domainSessionId = 1, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = CloseDomainSessionRequest, source event id = 2785, seq # = 2785, time = 2024:02:29 15:09:41:865 MST, sender type = Tutor_Module, sender name = Tutor_Module, sender address = Tutor_Queue_172.20.80.1_Inbox, destination address = Domain_Queue_172.20.80.1_Inbox, payload = [CloseDomainSessionRequest: reason = null], needs response = true]]]
+02-29-2024 15:10:09 [Msg 1615 success callback] ERROR mil.arl.gift.domain.DomainModule - Could not send course state: Domain Session ID 1 does not have a domain session associated with it.
+02-29-2024 15:10:09 [Msg 1615 success callback] ERROR mil.arl.gift.domain.BaseDomainSession - Caught exception while trying to handle training application transition
+java.lang.NullPointerException: null
+	at mil.arl.gift.domain.BaseDomainSession.displayTrainingApplicationTransition(BaseDomainSession.java:3873) ~[gift-domain.jar:?]
+	at mil.arl.gift.domain.BaseDomainSession.handleTrainingAppCourseTransition(BaseDomainSession.java:2496) [gift-domain.jar:?]
+	at mil.arl.gift.domain.BaseDomainSession.handleTransition(BaseDomainSession.java:2554) [gift-domain.jar:?]
+	at mil.arl.gift.domain.BaseDomainSession.displayNextTransition(BaseDomainSession.java:2148) [gift-domain.jar:?]
+	at mil.arl.gift.domain.BaseDomainSession$TransitionCallback.onSuccess(BaseDomainSession.java:541) [gift-domain.jar:?]
+	at mil.arl.gift.domain.BaseDomainSession$37.success(BaseDomainSession.java:4987) [gift-domain.jar:?]
+	at mil.arl.gift.net.api.MessageCollection$1.run(MessageCollection.java:440) [gift-common.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+02-29-2024 15:13:15 [Domain_Queue_172.20.80.1_Message_Listener] WARN  mil.arl.gift.net.api.NetworkSession - It took 681 ms to decode the ProcessedNACK message of:
+[DomainSessionMessage: domainSessionId = 2, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = ProcessedNACK, source event id = 3237, seq # = 3237, replyToSeqNum = 3352, time = 2024:02:29 15:13:14:596 MST, sender type = Gateway_Module, sender name = Gateway_Module, sender address = Gateway_Queue_172.20.80.1_Inbox, destination address = Domain_Queue_172.20.80.1_Inbox, payload = [NACK:  type = OperationFailedError, message = There are no interop interfaces that can handle this message, help = null], needs response = false]]]
+02-29-2024 15:13:37 [MessageCollectionACKReceived-Timer] ERROR mil.arl.gift.net.api.MessageCollection - Message has timed out because: Gateway_Queue_172.20.80.1_Inbox did not respond, to message [DomainSessionMessage: domainSessionId = 2, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = Siman, source event id = 3339, seq # = 3375, time = 2024:02:29 15:13:20:796 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_172.20.80.1_Inbox, destination address = null, payload = [Siman:  type = Load, loadArgs = { {gateway.interop.simple.SimpleExampleTAPluginInterface:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<InteropInputs xmlns:ns2="http://GIFT.com/common">
+    <SimpleExampleTAInteropInputs>
+        <loadArgs>
+            <ScenarioName>Scenario X</ScenarioName>
+        </loadArgs>
+    </SimpleExampleTAInteropInputs>
+</InteropInputs>
+},}, runtimeCourseFolderPath = runtime\jvaida\2024-02-29_15-11-31\Simple Example Training App Course, filesize = 0], needs response = true]]]
+02-29-2024 15:14:56 [Msg 3555 success callback] ERROR mil.arl.gift.domain.BaseDomainSession - Terminating the domain session: There has been a system error: Error while 'Loading scenario'. Gateway_Queue_172.20.80.1_Inbox did not respond, to message [DomainSessionMessage: domainSessionId = 2, [UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = Siman, source event id = 3339, seq # = 3375, time = 2024:02:29 15:13:20:796 MST, sender type = Domain_Module, sender name = Domain_Module, sender address = Domain_Queue_172.20.80.1_Inbox, destination address = null, payload = [Siman:  type = Load, loadArgs = { {gateway.interop.simple.SimpleExampleTAPluginInterface:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<InteropInputs xmlns:ns2="http://GIFT.com/common">
+    <SimpleExampleTAInteropInputs>
+        <loadArgs>
+            <ScenarioName>Scenario X</ScenarioName>
+        </loadArgs>
+    </SimpleExampleTAInteropInputs>
+</InteropInputs>
+},}, runtimeCourseFolderPath = runtime\jvaida\2024-02-29_15-11-31\Simple Example Training App Course, filesize = 0], needs response = true]]]
+02-29-2024 15:19:57 [DomainSessionModuleAllocation-1] ERROR mil.arl.gift.domain.DomainModule - Caught exception while trying to initialize the domain session for domain name of 'jvaida\2024-02-29_15-19-32\Simple Example Training App Course\exampleCourse.course.xml'.
+mil.arl.gift.common.ConfigurationException: This course requires a Gateway module to interact with and possibly control an external application but an available gateway module was not found connected to this GIFT instance.
+	at mil.arl.gift.domain.BaseDomainSession.initialize(BaseDomainSession.java:745) ~[gift-domain.jar:?]
+	at mil.arl.gift.domain.DomainModule.forwardDomainSelectionReply(DomainModule.java:1667) [gift-domain.jar:?]
+	at mil.arl.gift.domain.DomainModule$DomainSessionModuleAllocation.completed(DomainModule.java:5109) [gift-domain.jar:?]
+	at mil.arl.gift.domain.DomainModule$DomainSessionModuleAllocation.run(DomainModule.java:5245) [gift-domain.jar:?]
+02-29-2024 15:19:57 [Domain_Queue_172.20.80.1 Decoded Message Listener] ERROR mil.arl.gift.domain.DomainModule - Domain_Module received unhandled message:[UserSessionMessage: userId = 1, username = jvaida, experimentId = null, [Message: type = ModuleAllocationReply, source event id = 4051, seq # = 4051, replyToSeqNum = 4195, time = 2024:02:29 15:19:57:652 MST, sender type = Gateway_Module, sender name = Gateway_Module, sender address = Gateway_Queue_172.20.80.1_Inbox, destination address = Domain_Queue_172.20.80.1_Inbox, payload = [ModuleAllocationReply: ], needs response = false]]
