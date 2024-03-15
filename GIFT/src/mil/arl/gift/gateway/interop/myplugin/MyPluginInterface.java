@@ -49,14 +49,71 @@ public class MyPluginInterface extends AbstractInteropInterface {
         return supportedMsgTypes;
     }
 
+
+    /** this exe will launch the Simple Example Training Application */
+    private static final File APP_EXE = 
+    new File(".." + File.separator + "Training.Apps" + File.separator + "SimpleExampleTrainingApplication" + File.separator + 
+            "ExampleTrainingApplication" + File.separator + "bin" + File.separator + "Release" + File.separator + "ExampleTrainingApplication.exe");
+
+    /** this is the process that launches the TA and allows this class to monitor whether the TA has closed or not */
+    private Process trainingAppProcess = null;
+    private static final String TA_CLOSE_APP_METHOD_NAME = "closeApplication";
+    private static final String TA_LOAD_METHOD_NAME = "load";
+    private static final String TA_BLOB_METHOD_NAME = "blob";
+
+
+    private static List<MessageTypeEnum> PRODUCED_MSG_TYPES;
+    static{
+        PRODUCED_MSG_TYPES = new ArrayList<MessageTypeEnum>();
+        PRODUCED_MSG_TYPES.add(MessageTypeEnum.STOP_FREEZE);
+        PRODUCED_MSG_TYPES.add(MessageTypeEnum.SIMPLE_EXAMPLE_STATE);
+    }
+
     @Override
     public void setEnabled(boolean value){
 
         boolean isEnabledAlready = isEnabled();
         super.setEnabled(value);
-
-        if(!isEnabledAlready){
-
+        
+        if(!isEnabledAlready && value){
+            
+            //
+            // launch the training application 
+            // Note: 
+            //      1) this logic is here just so the GIFT user doesn't have to launch it, instead GIFT orchestrates 
+            //         the starting and stopping of the TA.
+            //      2) this logic could have been placed somewhere else in this class, like when the SIMAN Load msg is received.
+            //
+            
+            if(trainingAppProcess != null){
+                //check if the processes has exited
+                
+                try{
+                    //will throw an exception if the process hasn't existed
+                    trainingAppProcess.exitValue();
+                }catch(IllegalThreadStateException threadStateException){
+                    logger.error("The Simple Example TA launch thread has not exited from the previous launch.  Therefore the TA is in an unknown state.  "+
+                            "One possible way to remedy this problem before exeucting the course again would be to terminate the TA (possibly through task manager if need be?).", threadStateException);
+                    throw new RuntimeException("There was a problem launching the Simple Example TA.");
+                }
+            }
+            
+            ProcessBuilder pBuilder = new ProcessBuilder(APP_EXE.getAbsolutePath());
+            pBuilder.redirectErrorStream(true);
+            try {
+                trainingAppProcess = pBuilder.start();
+            } catch (IOException ioe) {
+                logger.error("Caught exception when trying to start the Simple Example TA.", ioe);
+                throw new RuntimeException("There was a problem launching the Simple Example TA.");
+            }
+            
+            //allowing the TA window to appear so the first message(s) can be seen
+            try {
+                Thread.sleep(1000);
+            } catch (@SuppressWarnings("unused") InterruptedException e1) {
+                //not important
+            }
+            
             //listen for RPC requests
             try {
                 server.start();
@@ -64,14 +121,40 @@ public class MyPluginInterface extends AbstractInteropInterface {
                 logger.error("Caught exception when trying to start the RPC server.", e);
                 throw new RuntimeException("There was a problem starting the RPC server.");
             }
-
+            
             logger.info("Started listening for incoming training application messages.");
-
-        }else{
-
+            
+        }else if (!value){
+            
+            //
+            // Notify the TA to close (because GIFT is disabling the interop plugin that communicates with it)
+            // Note: ignoring failures in closing the TA in order to allow the GIFT course to continue (or Gateway module to shutdown).
+            //
+            try{
+                if(server.isRunning() && trainingAppProcess != null){
+                	
+                	// Server is running, TA has ran at some point
+                	// We want to ensure both are killed
+                	try{
+                		// This method call will tell us if TA is still running
+                		trainingAppProcess.exitValue();
+                		
+                	}catch (@SuppressWarnings("unused") IllegalThreadStateException e) {
+                		// Training app is still running, kill it
+                		logger.warn("Training application is still running when it's not expected to be, attempting to close it.");
+                		client.callMethod(TA_CLOSE_APP_METHOD_NAME, new Vector<>(0), null);
+                	}
+                	
+                }
+            }catch(Exception e){
+                logger.warn("Caught exception while trying to call the remote method named "+TA_CLOSE_APP_METHOD_NAME+
+                        " in order to have the application close itself.  Therefore the application will most likely remain open.", e);
+            }
+            
             //stop listening for RPC requests
             server.stop();
 
+            
             logger.info("Stopped listening for incoming training application messages.");
         }
     }
@@ -313,8 +396,7 @@ public class MyPluginInterface extends AbstractInteropInterface {
 
     @Override
     public List<MessageTypeEnum> getProducedMessageTypes() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getProducedMessageTypes'");
+        return PRODUCED_MSG_TYPES;
     }
 
     @Override
@@ -342,9 +424,16 @@ public class MyPluginInterface extends AbstractInteropInterface {
     }
 
     @Override
-    public void loadScenario(String scenarioIdentifier) throws DetailedException {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'loadScenario'");
+    public void loadScenario(String scenarioIdentifier)
+            throws DetailedException {
+        
+        StringBuilder errorMsg = new StringBuilder();
+        client.callMethod(TA_LOAD_METHOD_NAME, scenarioIdentifier, errorMsg);   
+        
+        if(errorMsg.length() > 0){
+            throw new DetailedException("Failed to load the Simple Example TA scenario named '"+scenarioIdentifier+"'.", 
+                    "There was an error when trying to load the scenario:"+errorMsg.toString(), null);
+        }    
     }
 
     @Override
